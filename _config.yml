@@ -29,7 +29,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark"# "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -84,11 +84,11 @@ author:
   avatar           : "profile.jpg"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Pisa, Italy"
-  employer         :
+  employer         : "Technical University of Berlin"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=hEYc25gAAAAJ&hl=de"
-  email            :
-  researchgate     :  "https://www.researchgate.net/profile/Alex-Kaltenbach"
+  email            : "kaltenbach@math.tu-berlin.de"
+  researchgate     : "https://www.researchgate.net/profile/Alex-Kaltenbach"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/alexkaltenbach"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://de.linkedin.com/in/alex-kaltenbach-6646911bb"
   orcid            : "http://orcid.org/0000-0001-6478-7963"
   pinterest        :
   soundcloud       :
@@ -112,7 +112,7 @@ author:
   twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
-  xing             :
+  xing             : "https://www.xing.com/profile/Alex_Kaltenbach"
   youtube          :
   wikipedia        :
 
