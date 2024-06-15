@@ -8,12 +8,9 @@ author_profile: true
 {% if site.talkmap_link == true %}
 
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+ 
 
-{% endif %}
-
-
-Upcoming talks
-======
+<h1><u>Upcoming Talks</u></h1> 
 
 {% for post in site.talks reversed %}
   {% if post.status == 'upcoming' %}
@@ -22,8 +19,7 @@ Upcoming talks
 {% endfor %}
 
 
-Past talks
-======
+<h1><u>Past Talks</u></h1> 
 
 {% for post in site.talks reversed %}
   {% if post.status == 'past' %}
