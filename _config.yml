@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://de.linkedin.com/in/alex-kaltenbach-6646911bb"
+  linkedin         : #"https://de.linkedin.com/in/alex-kaltenbach-6646911bb"
   orcid            : "http://orcid.org/0000-0001-6478-7963"
   pinterest        :
   soundcloud       :
@@ -112,7 +112,7 @@ author:
   twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
-  xing             : "https://www.xing.com/profile/Alex_Kaltenbach"
+  xing             : #"https://www.xing.com/profile/Alex_Kaltenbach"
   youtube          :
   wikipedia        :
 

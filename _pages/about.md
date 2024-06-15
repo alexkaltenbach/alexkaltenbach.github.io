@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral research associate at the Technical University of Berlin supervised by Prof. Dr. Etienne Emmrich.
+I am a Postdoctoral Research Associate at the Technical University of Berlin supervised by Prof. Dr. Etienne Emmrich.
 I obtained my Ph.D. from the Department of Applied Mathematics at the University of Freiburg supervised by Prof. Dr. Michael Růžička. 
+From July 2023 to April 2024 I have been Fellow of the Walter-Benjamin-Program.
 
 <!---
 Research interests
