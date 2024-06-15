@@ -11,6 +11,21 @@ author_profile: true
 
 {% endif %}
 
+Upcoming talks
+======
+
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% if post.status == 'upcoming' %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+
+Past talks
+======
+
+{% for post in site.talks reversed %}
+{% if post.status == 'past' %}
+    {% include archive-single-talk.html %}
+  {% endif %}
 {% endfor %}
