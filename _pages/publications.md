@@ -16,7 +16,7 @@ author_profile: true
 Preprints
 ====== 
 
-{% for post in site._preprints reversed %}
+{% for post in site._publications reversed %} {% if post.status == 'unpublished' %}
   {% include archive-single.html %}
 {% endfor %}
 
@@ -24,6 +24,6 @@ Preprints
 Peer-reviewed Publications
 ======
 
-{% for post in site._publications reversed %}
+{% for post in site._publications reversed %} {% if post.status == 'published' %}
   {% include archive-single.html %}
 {% endfor %}
