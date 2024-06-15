@@ -11,7 +11,8 @@ author_profile: true
 
 {% endif %} 
 
-<p style="text-decoration:double_underline;">Upcoming talks</p> 
+
+<big><b>Upcoming talks</b></big>
 
 {% for post in site.talks reversed %}
   {% if post.status == 'upcoming' %}
@@ -20,7 +21,7 @@ author_profile: true
 {% endfor %}
 
 
-<p style="text-decoration:double_underline;">Past talks</p> 
+<big><b>Past talks</b></big>
 
 {% for post in site.talks reversed %}
   {% if post.status == 'past' %}
