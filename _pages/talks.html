@@ -10,7 +10,7 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
  
 
-<h1><u>Upcoming Talks</u></h1> 
+<p class="double_underline">Upcoming Talks</p> 
 
 {% for post in site.talks reversed %}
   {% if post.status == 'upcoming' %}
@@ -19,7 +19,7 @@ author_profile: true
 {% endfor %}
 
 
-<h1><u>Past Talks</u></h1> 
+<p class="double_underline">Past Talks</p> 
 
 {% for post in site.talks reversed %}
   {% if post.status == 'past' %}
