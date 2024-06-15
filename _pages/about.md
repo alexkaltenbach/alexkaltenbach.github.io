@@ -29,7 +29,7 @@ Research interests
   - Model problems: $p$-Dirichlet problem, $p(x)$-Dirichlet problem, obstacle problem, Signorini problem, Rudin–Osher–Fatemi problem, 
         elastisch-plastic torsions problem.
 
-2. **Numerical methods for *smart fluids* **
+2. **Numerical methods for** ***smart fluids***
   - Convergence analysis for finite element approximations for steady and unsteady problems;
   - *A priori* error analysis for finite element approximations for steady and unsteady problems;
   - Existence and regularity theory for steady and unsteady problems;
@@ -53,13 +53,4 @@ Research interests
   - Approximation of high-dimensional parametric PDEs using the Deep Ritz method and Physics-Informed Neural Networks (PINNs);
   - Development of a suitable functional analytical framework for high-dimensional parametric PDEs,
     the so-called *parametric Bochner-Lebesgue spaces*;
-  - $\Gamma$-convergence and error analyses under minimal regularity assumptions on the data.
-<!---
-Research interests
-=========================
-1. Analysis and numerics for `smart fluids';
-2. Convergence analyses for fully-discrete approximations of evolution equations;
-3. *A priori* and *a posteriori* error analysis for non-smooth convex minimization problems based on convex duality theory;
-4. Discontinuous Galerkin (DG) type approximations for non-Newtonian fluids;
-5. Approximation of parametric PDEs using ANNs.
---->
+  - $\Gamma$-convergence and error analyses under minimal regularity assumptions on the data. 
