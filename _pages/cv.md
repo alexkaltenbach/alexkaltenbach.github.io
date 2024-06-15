@@ -29,7 +29,7 @@ Work experience
 
 * Fellow of the Walter-Benjamin-Program, 07/2023 - 03/2024
   * University of Pisa
-  * Duties included: 	Investigations on numerical methods for “smart fluids”.
+  * Duties included: Investigations on numerical methods for “smart fluids”.
   * Host: Prof. Dr. Luigi Carlo Berselli
 
 * Postdoctoral Research Associate, 04/2023 - present
