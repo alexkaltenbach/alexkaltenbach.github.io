@@ -123,7 +123,6 @@ include:
   - _pages
   - files
 exclude:
-  - assets
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -275,8 +274,8 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+  remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 
 
