@@ -13,6 +13,8 @@ I obtained my Ph.D. from the Department of Applied Mathematics at the University
 
 Research interests
 =========================
-1. Analysis and numerics for non-Newtonian fluids, especially `smart fluids';
-2. *A priori* and *a posteriori* error analysis for non-smooth convex minimization problems based on convex duality theory;
-3. Discontinuous Galerkin (DG) methods.
+1. Analysis and numerics for `smart fluids';
+2. Convergence analyses for fully-discrete approximations of evolution equations;
+3. *A priori* and *a posteriori* error analysis for non-smooth convex minimization problems based on convex duality theory;
+4. Discontinuous Galerkin (DG) type approximations for non-Newtonian fluids;
+5. Approximation of parametric PDEs using ANNs.
