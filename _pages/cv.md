@@ -11,22 +11,34 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Mathematics, University of Freiburg, 10/2013 – 03/2017
+* M.S. in Mathematics, University of Freiburg, 04/2017 – 03/2019
+* Ph.D in Mathematics, University of Freiburg, 04/2019 – 09/2021
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Research Associate, 04/2019 – 09/2021
+  * University of Freiburg
+  * Duties included: Supervision of exercise sessions, seminars, theses, and lectures.
+  * Supervisor: Prof. Dr. Michael Růžička
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* Postdoctoral Research Associate, 10/2021 – 03/2023
+  * University of Freiburg
+  * Duties included: Supervision of exercise sessions, seminars, theses, and lectures.
+  * Supervisor: Prof. Dr. Michael Růžička
+
+* Fellow of the Walter-Benjamin-Program, 07/2023 - 03/2024
+  * University of Pisa
+  * Duties included: 	Investigations on numerical methods for “smart fluids”.
+  * Host: Prof. Dr. Luigi Carlo Berselli
+
+* Postdoctoral Research Associate, 04/2023 - present
+  * University of Freiburg
+  * Duties included: Supervision of exercise sessions, seminars, theses, and lectures.
+  * Supervisor: Prof. Dr. Etienne Emmrich
+
+<!---
+
 Skills
 ======
 * Skill 1
@@ -57,3 +69,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+-->
