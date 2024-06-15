@@ -12,8 +12,7 @@ author_profile: true
 {% include base_path %}
 
 
-Preprints
-====== 
+<big><b>Preprints</b></big>
 
 {% for post in site.publications reversed %} 
   {% if post.status == 'unpublished' %}
@@ -22,11 +21,31 @@ Preprints
 {% endfor %}
 
 
-Peer-reviewed Publications
-======
+<big><b>Peer-reviewed Publications</b></big>
 
 {% for post in site.publications reversed %}
   {% if post.status == 'published' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+
+<big><b>Monographs</b></big>
+
+
+<big>Book Publications</big>
+
+{% for post in site.publications reversed %}
+  {% if post.status == 'monograph_book' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+
+<big>PhD Thesis</big>
+
+{% for post in site.publications reversed %}
+  {% if post.status == 'monograph_thesis' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
