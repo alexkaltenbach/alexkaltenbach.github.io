@@ -8,11 +8,10 @@ author_profile: true
 {% if site.talkmap_link == true %}
 
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
- 
 
-{% include base_path %}
+{% endif %} 
 
-Upcoming Talks
+<p class="double_underline">Upcoming talks</p> 
 
 {% for post in site.talks reversed %}
   {% if post.status == 'upcoming' %}
@@ -21,7 +20,7 @@ Upcoming Talks
 {% endfor %}
 
 
-Past Talks 
+<p class="double_underline">Past talks</p> 
 
 {% for post in site.talks reversed %}
   {% if post.status == 'past' %}
