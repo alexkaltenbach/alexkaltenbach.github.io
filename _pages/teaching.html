@@ -10,7 +10,7 @@ author_profile: true
 <big><b>Assistences</b></big>
 
 {% for post in site.teaching reversed %}
-  {% if post.status == 'assistence' %}
+  {% if post.role == 'assistence' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -18,7 +18,7 @@ author_profile: true
 <big><b>Supervisions</b></big>
 
 {% for post in site.teaching reversed %}
-  {% if post.status == 'supervision' %}
+  {% if post.role == 'supervision' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
