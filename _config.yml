@@ -83,7 +83,7 @@ author:
   name             : "Alex Kaltenbach"
   avatar           : "profile.jpg"
   bio              : "Postdoctoral Researcher"
-  location         : "Berlin, Germany"
+  location         : #"Berlin, Germany"
   employer         : "Technical University of Berlin"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=hEYc25gAAAAJ&hl=de"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/alexkaltenbach"
+  github           : #"https://github.com/alexkaltenbach"
   google_plus      :
   keybase          :
   instagram        :
