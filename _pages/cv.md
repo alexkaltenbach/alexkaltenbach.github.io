@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,14 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+<big><b>Education</b></big>
+
 * B.S. in Mathematics, University of Freiburg, 10/2013 – 03/2017
 * M.S. in Mathematics, University of Freiburg, 04/2017 – 03/2019
 * Ph.D in Mathematics, University of Freiburg, 04/2019 – 09/2021
 
-Work experience
-======
+<big><b>Work Experience</b></big>
+
 * Research Associate, 04/2019 – 09/2021
   * University of Freiburg
   * Duties included: Supervision of exercise sessions, seminars, theses, and lectures.
@@ -36,6 +36,21 @@ Work experience
   * University of Freiburg
   * Duties included: Supervision of exercise sessions, seminars, theses, and lectures.
   * Supervisor: Prof. Dr. Etienne Emmrich
+
+<big><b>Editorial activity:</b></big>
+
+* Examples and Counterexamples
+
+<big><b>Reviewer Activity:</b></big>
+
+* Complex Variables and Elliptic Equations (4x)
+* Zeitschrift für angewandte Mathematik und Physik (1x)
+* SIAM Journal on Numerical Analysis (5x)
+* Mathematics of Computation (3x)
+* Fractional Calculus and Applied Analysis (1x)
+* Journal of Differential Equations (1x)
+* Advances in Continuous and Discrete Models (1x)
+*  IMA Journal of Numerical Analysis (1x)
 
 <!---
 
