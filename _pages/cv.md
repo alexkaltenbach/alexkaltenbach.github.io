@@ -11,9 +11,10 @@ redirect_from:
 
 <big><b>Education</b></big>
 
-* B.S. in Mathematics, University of Freiburg, 10/2013 – 03/2017
-* M.S. in Mathematics, University of Freiburg, 04/2017 – 03/2019
-* Ph.D in Mathematics, University of Freiburg, 04/2019 – 09/2021
+* Ph.D in Mathematics, University of Freiburg, 04/2019 – 09/2021;
+* M.S. in Mathematics, University of Freiburg, 04/2017 – 03/2019;
+* B.S. in Mathematics, University of Freiburg, 10/2013 – 03/2017;
+* A–Levels (Allgemeine Hochschulreife), Richard–Fehrenbach–Gymnasium Freiburg, 09/2010 – 06/2013.
 
 <big><b>Work Experience</b></big>
 
@@ -54,11 +55,19 @@ redirect_from:
 
 <big><b>Third party funding</b></big>
 
-* <i>Walter–Benjamin–Programm</i>, 07/2023 – 03/2024<br>
+* *Walter–Benjamin–Programm*, 07/2023 – 03/2024<br>
   Description: Nine-month funding to conduct theoretical and experimental investigations on numerical methods for "smart fluids" at the Department of Applied Mathematics of the University of Pisa in cooperation with Prof. Dr. L. C. Berselli. (Funding amount: 25.362€)
 
-* <i>DAAD Kongressreisenprogramm 2023</i>, 08/2023<br>
+* *DAAD Kongressreisenprogramm 2023*, 08/2023<br>
   Description: Funding to attend the ICIAM2023 (10th International Congress on Industrial and Applied Mathematics) in Tokyo (Japan). (Funding amount: 2.350 €)
+
+<big><b>Awards</b></big>
+
+* *Ferdinand–von–Lindemann–Preis*, 10/2020<br>
+  Description: Award for PhD thesis with the title "Theory of pseudo-monotone operators for unsteady problems in variable exponent spaces" (prize money: 1000 €);
+
+* *Alumni–Preis*, 07/2019<br>
+  Description: Award for master thesis with the title "Verallgemeinerte nicht-lineare Evolutionsgleichungen" (prize money: 700 €).
 
 
 <!---
