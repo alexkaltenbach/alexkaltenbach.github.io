@@ -37,11 +37,11 @@ redirect_from:
   * Duties included: Supervision of exercise sessions, seminars, theses, and lectures.
   * Supervisor: Prof. Dr. Etienne Emmrich
 
-<big><b>Editorial activity:</b></big>
+<big><b>Editorial activity</b></big>
 
 * Examples and Counterexamples
 
-<big><b>Reviewer Activity:</b></big>
+<big><b>Reviewer Activity</b></big>
 
 * Complex Variables and Elliptic Equations (4x)
 * Zeitschrift für angewandte Mathematik und Physik (1x)
@@ -51,6 +51,15 @@ redirect_from:
 * Journal of Differential Equations (1x)
 * Advances in Continuous and Discrete Models (1x)
 * IMA Journal of Numerical Analysis (1x)
+
+<big><b>Third party funding</b></big>
+
+* <i>Walter–Benjamin–Programm</i>, 07/2023 – 03/2024<br>
+  Description: Nine-month funding to conduct theoretical and experimental investigations on numerical methods for "smart fluids" at the Department of Applied Mathematics of the University of Pisa in cooperation with Prof. Dr. L. C. Berselli. (Funding amount: 25.362€)
+
+* <i>DAAD Kongressreisenprogramm 2023</i>, 08/2023<br>
+  Description: Funding to attend the ICIAM2023 (10th International Congress on Industrial and Applied Mathematics) in Tokyo (Japan). (Funding amount: 2.350 €)
+
 
 <!---
 
