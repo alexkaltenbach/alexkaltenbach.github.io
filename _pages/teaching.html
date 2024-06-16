@@ -7,6 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
+<big><b>Assistences</b></big>
+
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  {% if post.status == 'assistence' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<big><b>Supervisions</b></big>
+
+{% for post in site.teaching reversed %}
+  {% if post.status == 'supervision' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}

@@ -6,4 +6,5 @@ permalink: /teaching/2020-summer-teaching1
 venue: "University of Freiburg, Department of Applied Mathematics"
 date: 2020-04-01
 location: "Freiburg, Germany"
+role: "assistance"
 ---

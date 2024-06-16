@@ -6,4 +6,5 @@ permalink: /teaching/2019-winter-teaching
 venue: "University of Freiburg, Department of Applied Mathematics"
 date: 2019-10-01
 location: "Freiburg, Germany"
+role: "assistance"
 ---
