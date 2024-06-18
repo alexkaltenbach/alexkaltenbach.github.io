@@ -38,7 +38,7 @@ redirect_from:
   * Duties included: Supervision of exercise sessions, seminars, theses, and lectures.
   * Supervisor: Prof. Dr. Etienne Emmrich
 
-<big><b>Editorial activity</b></big>
+<big><b>Editorial Activity</b></big>
 
 * Examples and Counterexamples
 
@@ -53,7 +53,7 @@ redirect_from:
 * Advances in Continuous and Discrete Models (1x)
 * IMA Journal of Numerical Analysis (1x)
 
-<big><b>Third party funding</b></big>
+<big><b>Third Party Funding</b></big>
 
 * *Walter–Benjamin–Programm*, 07/2023 – 03/2024<br>
   Description: Nine-month funding to conduct theoretical and experimental investigations on numerical methods for "smart fluids" at the Department of Applied Mathematics of the University of Pisa in cooperation with Prof. Dr. L. C. Berselli. (Funding amount: 25.362€)
