@@ -44,7 +44,7 @@ redirect_from:
 
 <big><b>Reviewer Activity</b></big>
 
-* Complex Variables and Elliptic Equations (4x)
+* Complex Variables and Elliptic Equations (5x)
 * Zeitschrift für angewandte Mathematik und Physik (1x)
 * SIAM Journal on Numerical Analysis (5x)
 * Mathematics of Computation (3x)
@@ -52,6 +52,7 @@ redirect_from:
 * Journal of Differential Equations (1x)
 * Advances in Continuous and Discrete Models (1x)
 <!---* IMA Journal of Numerical Analysis (1x)--->
+<!---* Advances in Nonlinear Analysis (1x)--->
 
 <big><b>Third Party Funding</b></big>
 
