@@ -49,7 +49,7 @@ redirect_from:
 * SIAM Journal on Numerical Analysis (5x)
 * Mathematics of Computation (3x)
 * Fractional Calculus and Applied Analysis (1x)
-* Journal of Differential Equations (1x)
+* Journal of Differential Equations (2x)
 * Advances in Continuous and Discrete Models (1x)
 * IMA Journal of Numerical Analysis (1x)
 <!---* Advances in Nonlinear Analysis (1x)--->
