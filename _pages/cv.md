@@ -52,6 +52,7 @@ redirect_from:
 * Journal of Differential Equations (2x)
 * Advances in Continuous and Discrete Models (1x)
 * IMA Journal of Numerical Analysis (1x)
+* Mathematics (1x)
 <!---* Advances in Nonlinear Analysis (1x)--->
 
 <big><b>Third Party Funding</b></big>
