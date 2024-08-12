@@ -11,9 +11,9 @@ redirect_from:
 
 <big><b>Education</b></big>
 
-* Ph.D in Mathematics, University of Freiburg, 04/2019 – 09/2021;
-* M.S. in Mathematics, University of Freiburg, 04/2017 – 03/2019;
-* B.S. in Mathematics, University of Freiburg, 10/2013 – 03/2017;
+* Dr. rer. nat. in Mathematics, University of Freiburg, 04/2019 – 09/2021;
+* M.Sc. in Mathematics, University of Freiburg, 04/2017 – 03/2019;
+* B.Sc. in Mathematics, University of Freiburg, 10/2013 – 03/2017;
 * A–Levels (Allgemeine Hochschulreife), Richard–Fehrenbach–Gymnasium Freiburg, 09/2010 – 06/2013.
 
 <big><b>Work Experience</b></big>
