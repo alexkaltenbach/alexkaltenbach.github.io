@@ -54,6 +54,7 @@ redirect_from:
 * IMA Journal of Numerical Analysis (1x)
 * Mathematics (1x)
 * Mathematische Nachrichten (1x)
+* Foundations (1x)
 <!---* Advances in Nonlinear Analysis (1x)--->
 
 <big><b>Third Party Funding</b></big>
