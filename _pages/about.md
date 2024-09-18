@@ -16,8 +16,8 @@ aimed at theoretical and experimental investigation on numerical methods for so-
  
 Research interests
 ======
-1. **Error analysis for non-smooth, convex minimizatioin problems on the basis of convex duality**
-  - *A priori*, *Medius*, *A posteriori* error analysis on the basis of discrete convex duality
+1. **Error analysis for non-smooth, convex minimization problems on the basis of convex duality**
+  - *A priori* error analysis on the basis of discrete convex duality
   (especially *a priori* error identities);
   - *A posteriori* error analysis on the basis of continuous convex duality 
   (especially *a posteriori* error identities);
