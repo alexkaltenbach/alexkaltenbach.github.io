@@ -47,7 +47,7 @@ redirect_from:
 * Complex Variables and Elliptic Equations (5x)
 * Zeitschrift für angewandte Mathematik und Physik (1x)
 * SIAM Journal on Numerical Analysis (5x)
-* Mathematics of Computation (3x)
+* Mathematics of Computation (4x)
 * Fractional Calculus and Applied Analysis (1x)
 * Journal of Differential Equations (2x)
 * Advances in Continuous and Discrete Models (1x)
@@ -55,7 +55,7 @@ redirect_from:
 * Mathematics (1x)
 * Mathematische Nachrichten (1x)
 * Foundations (1x)
-<!---* Advances in Nonlinear Analysis (1x)--->
+* Advances in Nonlinear Analysis (2x)
 
 <big><b>Third Party Funding</b></big>
 
