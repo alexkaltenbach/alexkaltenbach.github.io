@@ -32,7 +32,7 @@ redirect_from:
   * University of Pisa
   * Duties included: Investigations on numerical methods for “smart fluids”.
   * Host: Prof. Dr. Luigi Carlo Berselli
-  * Final Report: <td><a href="/files/final_report.pdf">PDF</a></td>
+  * Final Report: <a href="/files/final_report.pdf">Link to PDF</a>
 
 * Postdoctoral Research Associate, 04/2023 - present
   * University of Freiburg
