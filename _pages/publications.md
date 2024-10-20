@@ -32,6 +32,14 @@ author_profile: true
 
 <big><b>Monographs</b></big>
 
+<big>Book Contributions</big>
+
+{% for post in site.publications reversed %}
+  {% if post.status == 'monograph_book_contribution' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
 
 <big>Book Publications</big>
 
