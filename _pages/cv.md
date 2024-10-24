@@ -57,6 +57,7 @@ redirect_from:
 * Mathematische Nachrichten (1x)
 * Foundations (1x)
 * Advances in Nonlinear Analysis (2x)
+* Mathematical Models and Methods in Applied Sciences (1x)
 
 <big><b>Third Party Funding</b></big>
 
