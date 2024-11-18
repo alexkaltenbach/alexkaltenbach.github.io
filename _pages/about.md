@@ -48,9 +48,3 @@ Research interests
   - Symmetric Interior Penalty (SIP) approximations;
   - Quasi-optimality, *i.e.*, best approximation results for irregular right-hand sides
         and without oscillation terms;
-
-5. **Approximation of parametric PDEs with artificial neural networks (ANNs)** 
-  - Approximation of high-dimensional parametric PDEs using the Deep Ritz method and Physics-Informed Neural Networks (PINNs);
-  - Development of a suitable functional analytical framework for high-dimensional parametric PDEs,
-    the so-called *parametric Bochner-Lebesgue spaces*;
-  - $\Gamma$-convergence and error analyses under minimal regularity assumptions on the data. 
