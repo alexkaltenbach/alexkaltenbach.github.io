@@ -11,6 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
+<big><b>Publication list (in PDF format):</b> <a href="/files/PubList.pdf">Link to PDF</a></big>
 
 <big><b>Preprints</b></big>
 
