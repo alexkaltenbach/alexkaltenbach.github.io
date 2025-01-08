@@ -9,24 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-<big><b>Education</b></big>
-
-* Dr. rer. nat. in Mathematics, University of Freiburg, 04/2019 – 09/2021;
-* M.Sc. in Mathematics, University of Freiburg, 04/2017 – 03/2019;
-* B.Sc. in Mathematics, University of Freiburg, 10/2013 – 03/2017;
-* A–Levels (Allgemeine Hochschulreife), Richard–Fehrenbach–Gymnasium Freiburg, 09/2010 – 06/2013.
-
 <big><b>Work Experience</b></big>
 
-* Research Associate, 04/2019 – 09/2021
+* Postdoctoral Research Associate, 04/2023 - present
   * University of Freiburg
   * Duties included: Supervision of exercise sessions, seminars, theses, and lectures.
-  * Supervisor: Prof. Dr. Michael Růžička
-
-* Postdoctoral Research Associate, 10/2021 – 03/2023
-  * University of Freiburg
-  * Duties included: Supervision of exercise sessions, seminars, theses, and lectures.
-  * Supervisor: Prof. Dr. Michael Růžička
+  * Supervisor: Prof. Dr. Etienne Emmrich
 
 * Fellow of the Walter-Benjamin-Program, 07/2023 - 03/2024
   * University of Pisa
@@ -34,10 +22,22 @@ redirect_from:
   * Host: Prof. Dr. Luigi Carlo Berselli
   * Final Report: <a href="/files/final_report.pdf">Link to PDF</a>
 
-* Postdoctoral Research Associate, 04/2023 - present
+* Postdoctoral Research Associate, 10/2021 – 03/2023
   * University of Freiburg
   * Duties included: Supervision of exercise sessions, seminars, theses, and lectures.
-  * Supervisor: Prof. Dr. Etienne Emmrich
+  * Supervisor: Prof. Dr. Michael Růžička
+
+* Research Associate, 04/2019 – 09/2021
+  * University of Freiburg
+  * Duties included: Supervision of exercise sessions, seminars, theses, and lectures.
+  * Supervisor: Prof. Dr. Michael Růžička
+
+<big><b>Education</b></big>
+
+* Dr. rer. nat. in Mathematics, University of Freiburg, 04/2019 – 09/2021;
+* M.Sc. in Mathematics, University of Freiburg, 04/2017 – 03/2019;
+* B.Sc. in Mathematics, University of Freiburg, 10/2013 – 03/2017;
+* A–Levels (Allgemeine Hochschulreife), Richard–Fehrenbach–Gymnasium Freiburg, 09/2010 – 06/2013.
 
 <big><b>Editorial Activity</b></big>
 
@@ -62,7 +62,7 @@ redirect_from:
 
 <big><b>Third Party Funding</b></big>
 
-* *Walter–Benjamin–Programm*, 07/2023 – 03/2024<br>
+* *Walter Benjamin Programme*, 07/2023 – 03/2024<br>
   Description: Nine-month funding to conduct theoretical and experimental investigations on numerical methods for "smart fluids" at the Department of Applied Mathematics of the University of Pisa in cooperation with Prof. Dr. L. C. Berselli. (Funding amount: 25.362€)
 
 * *DAAD Kongressreisenprogramm 2023*, 08/2023<br>
@@ -70,7 +70,7 @@ redirect_from:
 
 <big><b>Awards</b></big>
 
-* *Ferdinand–von–Lindemann–Preis*, 10/2020<br>
+* *Ferdinand-von–Lindemann–Preis*, 10/2020<br>
   Description: Award for PhD thesis with the title "Theory of pseudo-monotone operators for unsteady problems in variable exponent spaces" (prize money: 1000 €);
 
 * *Alumni–Preis*, 07/2019<br>

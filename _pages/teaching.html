@@ -9,18 +9,18 @@ author_profile: true
 
 <big><b>Lectures and Seminars</b></big><br>
 
-<big>Assistantships</big>
-
-{% for post in site.teaching reversed %}
-  {% if post.role == 'assistance' %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
 <big>Supervisions</big>
 
 {% for post in site.teaching reversed %}
   {% if post.role == 'supervision' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<big>Assistantships</big>
+
+{% for post in site.teaching reversed %}
+  {% if post.role == 'assistance' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
