@@ -60,6 +60,7 @@ redirect_from:
 * Mathematical Models and Methods in Applied Sciences (2x)
 * Archiv der Mathematik (1x)
 * Computational Methods in Applied Mathematics (1x)
+* Journal of Optimization Theory and Applications (1x)
 
 <big><b>Third Party Funding</b></big>
 
