@@ -70,6 +70,9 @@ redirect_from:
 * *DAAD Kongressreisenprogramm 2023*, 08/2023<br>
   Description: Funding to attend the ICIAM2023 (10th International Congress on Industrial and Applied Mathematics) in Tokyo (Japan). (Funding amount: 2.350 €)
 
+  * *Robert Bartnik Fellowship 2025*, 03/2025<br>
+  Description: Funding to for a research stay at the Monash University (Australia). (Funding amount: 5.000 €)
+
 <big><b>Awards</b></big>
 
 * *Ferdinand-von–Lindemann–Preis*, 10/2020<br>
