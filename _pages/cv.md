@@ -61,6 +61,7 @@ redirect_from:
 * Archiv der Mathematik (1x)
 * Computational Methods in Applied Mathematics (1x)
 * Journal of Optimization Theory and Applications (1x)
+* Nonlinear Analysis: Real World Applications (1x)
 
 <big><b>Third Party Funding</b></big>
 
