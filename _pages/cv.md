@@ -48,7 +48,7 @@ redirect_from:
 * Complex Variables and Elliptic Equations (5x)
 * Zeitschrift für angewandte Mathematik und Physik (1x)
 * SIAM Journal on Numerical Analysis (6x)
-* Mathematics of Computation (3x)
+* Mathematics of Computation (4x)
 * Fractional Calculus and Applied Analysis (1x)
 * Journal of Differential Equations (2x)
 * Advances in Continuous and Discrete Models (1x)
