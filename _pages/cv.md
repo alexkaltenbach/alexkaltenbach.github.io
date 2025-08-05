@@ -52,7 +52,7 @@ redirect_from:
 * Fractional Calculus and Applied Analysis (1x)
 * Journal of Differential Equations (2x)
 * Advances in Continuous and Discrete Models (1x)
-* IMA Journal of Numerical Analysis (1x)
+* IMA Journal of Numerical Analysis (2x)
 * Mathematics (1x)
 * Mathematische Nachrichten (1x)
 * Foundations (1x)
