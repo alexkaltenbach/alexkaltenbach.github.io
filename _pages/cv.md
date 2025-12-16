@@ -47,12 +47,12 @@ redirect_from:
 
 * Complex Variables and Elliptic Equations <!--(5x)-->
 * Zeitschrift für angewandte Mathematik und Physik <!--(1x)-->
-* SIAM Journal on Numerical Analysis <!--(6x)-->
+* SIAM Journal on Numerical Analysis <!--(7x)-->
 * Mathematics of Computation <!--(4x)-->
 * Fractional Calculus and Applied Analysis <!--(1x)-->
 * Journal of Differential Equations <!--(2x)-->
 * Advances in Continuous and Discrete Models <!--(1x)-->
-* IMA Journal of Numerical Analysis <!--(2x)-->
+* IMA Journal of Numerical Analysis <!--(3x)-->
 * Mathematics <!--(1x)-->
 * Mathematische Nachrichten <!--(1x)-->
 * Foundations <!--(1x)-->
@@ -62,6 +62,7 @@ redirect_from:
 * Computational Methods in Applied Mathematics <!--(1x)-->
 * Journal of Optimization Theory and Applications <!--(1x)-->
 * Nonlinear Analysis: Real World Applications <!--(1x)-->
+* Lecture Notes in Mathematics <!--(1x)-->
 
 <big><b>Third Party Funding</b></big>
 
