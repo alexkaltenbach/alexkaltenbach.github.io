@@ -48,8 +48,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
         {{ pub.citation }}
       </div>
       <div class="pub-links">
-        <a class="pub-link" href="{{ pub.url | relative_url }}">Entry</a>
-        {% if pub.paperurl %} · <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>{% endif %}
+        <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>{% endif %}
       </div>
     </li>
   {% endif %}
@@ -75,8 +74,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
         </div>
       {% endif %}
       <div class="pub-links">
-        <a class="pub-link" href="{{ pub.url | relative_url }}">Entry</a>
-        {% if pub.paperurl %} · <a class="pub-link" href="{{ pub.paperurl }}">Link</a>{% endif %}
+        <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>{% endif %}
       </div>
     </li>
   {% endif %}
@@ -100,8 +98,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
         </div>
       {% endif %}
       <div class="pub-links">
-        <a class="pub-link" href="{{ pub.url | relative_url }}">Entry</a>
-        {% if pub.paperurl %} · <a class="pub-link" href="{{ pub.paperurl }}">Link</a>{% endif %}
+        <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>{% endif %}
       </div>
     </li>
   {% endif %}
@@ -125,8 +122,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
         </div>
       {% endif %}
       <div class="pub-links">
-        <a class="pub-link" href="{{ pub.url | relative_url }}">Entry</a>
-        {% if pub.paperurl %} · <a class="pub-link" href="{{ pub.paperurl }}">Link</a>{% endif %}
+        <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>{% endif %}
       </div>
     </li>
   {% endif %}
