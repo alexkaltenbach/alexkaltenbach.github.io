@@ -10,6 +10,18 @@
  *
 */
 
+/* Talks – clean, CV-like */
+.talkmap-link { text-decoration: underline; }
+
+.talk-list { list-style: none; padding-left: 0; margin-top: 0.5rem; }
+.talk-item { padding: 0.55rem 0; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.talk-row { display: flex; gap: 0.75rem; align-items: baseline; justify-content: space-between; }
+.talk-title { font-weight: 600; color: inherit; }
+.talk-link { font-size: 0.9rem; text-decoration: none; opacity: 0.8; white-space: nowrap; }
+.talk-link:hover { text-decoration: underline; opacity: 1; }
+.talk-meta { margin-top: 0.15rem; font-size: 0.95rem; opacity: 0.9; }
+.talk-date { opacity: 0.85; }
+
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
