@@ -19,7 +19,6 @@ author_profile: true
   {% if t.status == 'upcoming' %}
     <li>
       <strong><a href="{{ t.url | relative_url }}">{{ t.title }}</a></strong>
-      {% if t.type %} — {{ t.type }}{% endif %}
       {% if t.venue or t.location or t.date %}<br>{% endif %}
       {% if t.venue %}<span style="opacity:0.9">{{ t.venue }}</span>{% endif %}
       {% if t.location %}<span style="opacity:0.9"> · {{ t.location }}</span>{% endif %}
@@ -37,7 +36,6 @@ author_profile: true
   {% if t.status == 'past' %}
     <li>
       <strong><a href="{{ t.url | relative_url }}">{{ t.title }}</a></strong>
-      {% if t.type %} — {{ t.type }}{% endif %}
       {% if t.venue or t.location or t.date %}<br>{% endif %}
       {% if t.venue %}<span style="opacity:0.9">{{ t.venue }}</span>{% endif %}
       {% if t.location %}<span style="opacity:0.9"> · {{ t.location }}</span>{% endif %}
