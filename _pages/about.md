@@ -8,43 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral researcher at the Technical University of Berlin in the group Differential Equations headed by Prof. Dr. Etienne Emmrich.
-Previously I held a Postdoc position the Department of Applied Mathematics at the University of Freiburg, where I also did my PhD under
-the supervision of Prof. Dr. Michael Růžička. From July 2023 to April 2024 I have been Fellow of the Walter-Benjamin-Program. 
-My research project, which I conducted in collaboration with Prof. Dr. Luigi C. Berselli at the University of Pisa,
-aimed at theoretical and experimental investigation on numerical methods for so-called smart fluids.
- 
-Research interests
-======
-1. **Error analysis for non-smooth, convex minimization problems on the basis of convex duality**
-  - *A priori* error analysis on the basis of discrete convex duality
-  (especially *a priori* error identities);
-  - *A posteriori* error analysis on the basis of continuous convex duality 
-  (especially *a posteriori* error identities);
-  - *Medius* error analysis (*i.e.*, best-approximation results);
-  - Reconstruction formulas for (discrete) dual solutions from (discrete) primal solutions (and vice versa);
-  (so-called generalized Marini formulas);
-  - Adaptive mesh refinement by means of resulting local refinement indicators;
-  - Iterative methods for non-smooth, convex minimizatioin problems (*e.g.*, semi-discretized gradient flows, semi-smooth Newton methods, primal-dual iterations);
-  - Model problems: $p$-Dirichlet problem, $p(x)$-Dirichlet problem, obstacle problem, Signorini problem, Rudin–Osher–Fatemi problem, 
-        elastisch-plastic torsions problem.
+I am a postdoctoral researcher at the Technical University of Berlin in the research group *Differential Equations* headed by Prof. Dr. Etienne Emmrich.
 
-2. **Numerical methods for** ***smart fluids***
-  - Convergence analysis for finite element approximations for steady and unsteady problems;
-  - *A priori* error analysis for finite element approximations for steady and unsteady problems;
-  - Existence and regularity theory for steady and unsteady problems;
-  - Application-oriented simulations (with applications from the field of engineering). 
+From March to September 2026, I will be a Distinguished Fellow at George Mason University (Fairfax, VA, USA), hosted by Prof. Dr. Harbir Antil, where I will work on duality-based error control and numerical methods for digital-twin-based structural health monitoring.
 
-3. **Convergence analysis for fully-discretizations of non-linear evolution equations**
-  - Convergence results for fully-discretizations without parabolic compactness theorems like Lions-Aubin or Simon, 
-    but on the basis of *non-conforming (Bochner) pseudomonotonicity*;
-  - *Hirano-Landes approach*, *i.e.*, convergence results for fully-discretizations 
-    on the basis of stationary compactness theorems (*e.g.*, Rellich or non-conforming generalizations).
+Previously, I held a postdoctoral position at the University of Freiburg, where I also completed my PhD under the supervision of Prof. Dr. Michael Růžička. From July 2023 to April 2024, I was a Walter Benjamin Fellow of the German Research Foundation (DFG), conducting research on numerical methods for so-called smart fluids in collaboration with Prof. Dr. Luigi C. Berselli at the University of Pisa.
 
-4. **Discontinuous Galerkin (DG) type approximations for non-Newtonian fluids**
-  - Convergence analysis for steady and unsteady problems;
-  - *A priori* error analysis for steady and unsteady problems;
-  - Local Discontinuous Galerkin (LDG) approximations;
-  - Symmetric Interior Penalty (SIP) approximations;
-  - Quasi-optimality, *i.e.*, best approximation results for irregular right-hand sides
-        and without oscillation terms;
+My research lies at the intersection of numerical analysis, partial differential equations, and convex variational methods. I develop mathematically rigorous and computationally reliable methods for nonlinear and non-smooth problems, with a particular focus on complex fluid models and applications arising in engineering and the natural sciences.
+
+## Research interests
+
+- Numerical analysis of nonlinear and non-smooth partial differential equations  
+- Convex duality methods for error estimation and adaptive algorithms  
+- Finite element and discontinuous Galerkin methods  
+- Mathematical modeling and simulation of non-Newtonian and smart fluids  
+- Fully discrete schemes for nonlinear evolution equations  
