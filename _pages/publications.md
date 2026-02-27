@@ -22,8 +22,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 {% for pub in pubs %}
   {% if pub.status == 'unpublished' %}
     <li class="pub-item">
-      <span class="pub-title">
-        <a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+      <span class="pub-title">{{ pub.title }}
       </span>
       <div class="pub-meta">
         {% if pub.authors %}{{ pub.authors }}. {% endif %}
