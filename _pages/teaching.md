@@ -9,11 +9,12 @@ author_profile: true
 
 ## Lectures and seminars
 
-Lecture notes:
-[Ordinary Differential Equations](/files/skript_ode.pdf),
-[Bochner Spaces](/files/skript_bochner.pdf),
-[Differential Equations II/B](/files/skript_dgl2b.pdf),
-[Differential Equations III](/files/skript_dgl3.pdf).
+### Lecture notes
+
+- [Ordinary Differential Equations](/files/skript_ode.pdf)
+- [Bochner Spaces](/files/skript_bochner.pdf)
+- [Differential Equations II/B](/files/skript_dgl2b.pdf)
+- [Differential Equations III](/files/skript_dgl3.pdf)
 
 ## Supervisions
 
