@@ -24,7 +24,7 @@ author_profile: true
   {% if t.role == 'supervision' %}
     <li class="teaching-item">
       <div class="teaching-title">
-        {{ t.title }}
+        <em>{{ t.title }}</em>
         {% if t.type %}<span class="teaching-type"> — {{ t.type }}</span>{% endif %}
       </div>
       <div class="teaching-meta">
@@ -44,7 +44,7 @@ author_profile: true
   {% if t.role == 'assistance' %}
     <li class="teaching-item">
       <div class="teaching-title">
-        {{ t.title }}
+        <em>{{ t.title }}</em>
         {% if t.type %}<span class="teaching-type"> — {{ t.type }}</span>{% endif %}
       </div>
       <div class="teaching-meta">
