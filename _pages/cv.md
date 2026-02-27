@@ -17,7 +17,7 @@ redirect_from:
   Host: Prof. Dr. Harbir Antil  
 
 * **Postdoctoral Research Associate**, 04/2023 – Present  
-  University of Freiburg, Germany  
+  Technical University of Berlin, Germany  
   Teaching and supervision of exercise sessions, seminars, theses, and lectures.  
   Supervisor: Prof. Dr. Etienne Emmrich  
 
