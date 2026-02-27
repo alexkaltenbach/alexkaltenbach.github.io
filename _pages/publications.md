@@ -6,55 +6,88 @@ author_profile: true
 ---
 
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a></u>.
 {% endif %}
 
 {% include base_path %}
 
-<big><b>Publication list (in PDF format):</b> <a href="/files/PubList.pdf">Link to PDF</a></big>
+**Publication list (PDF):** [Link to PDF](/files/PubList.pdf)
 
-<big><b>Preprints</b></big>
+---
 
-{% for post in site.publications reversed %} 
-  {% if post.status == 'unpublished' %}
-    {% include archive-single.html %}
+## Preprints
+
+<ol reversed>
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% for pub in pubs %}
+  {% if pub.status == 'unpublished' %}
+    <li>
+      {% if pub.authors %}{{ pub.authors }}:{% endif %}
+      <strong>{{ pub.title }}</strong>,
+      <em>{{ pub.venue }}</em>{% if pub.year %} ({{ pub.year }}){% endif %}
+      {% if pub.paperurl %} [<a href="{{ pub.paperurl }}">PDF</a>]{% endif %}
+      {% if pub.doi %} [<a href="https://doi.org/{{ pub.doi }}">DOI</a>]{% endif %}
+    </li>
   {% endif %}
 {% endfor %}
+</ol>
 
+## Peer-reviewed Publications
 
-<big><b>Peer-reviewed Publications</b></big>
-
-{% for post in site.publications reversed %}
-  {% if post.status == 'published' %}
-    {% include archive-single.html %}
+<ol reversed>
+{% for pub in pubs %}
+  {% if pub.status == 'published' %}
+    <li>
+      {% if pub.authors %}{{ pub.authors }}:{% endif %}
+      <strong>{{ pub.title }}</strong>,
+      <em>{{ pub.venue }}</em>{% if pub.year %} ({{ pub.year }}){% endif %}
+      {% if pub.paperurl %} [<a href="{{ pub.paperurl }}">PDF</a>]{% endif %}
+      {% if pub.doi %} [<a href="https://doi.org/{{ pub.doi }}">DOI</a>]{% endif %}
+    </li>
   {% endif %}
 {% endfor %}
+</ol>
 
+## Monographs
 
-<big><b>Monographs</b></big>
+### Book Contributions
 
-<big>Book Contributions</big>
-
-{% for post in site.publications reversed %}
-  {% if post.status == 'monograph_book_contribution' %}
-    {% include archive-single.html %}
+<ul>
+{% for pub in pubs %}
+  {% if pub.status == 'monograph_book_contribution' %}
+    <li>
+      {% if pub.authors %}{{ pub.authors }}:{% endif %}
+      <strong>{{ pub.title }}</strong>,
+      <em>{{ pub.venue }}</em>{% if pub.year %} ({{ pub.year }}){% endif %}
+    </li>
   {% endif %}
 {% endfor %}
+</ul>
 
+### Book Publications
 
-<big>Book Publications</big>
-
-{% for post in site.publications reversed %}
-  {% if post.status == 'monograph_book' %}
-    {% include archive-single.html %}
+<ul>
+{% for pub in pubs %}
+  {% if pub.status == 'monograph_book' %}
+    <li>
+      {% if pub.authors %}{{ pub.authors }}:{% endif %}
+      <strong>{{ pub.title }}</strong>,
+      <em>{{ pub.venue }}</em>{% if pub.year %} ({{ pub.year }}){% endif %}
+    </li>
   {% endif %}
 {% endfor %}
+</ul>
 
+### PhD Thesis
 
-<big>PhD Thesis</big>
-
-{% for post in site.publications reversed %}
-  {% if post.status == 'monograph_thesis' %}
-    {% include archive-single.html %}
+<ul>
+{% for pub in pubs %}
+  {% if pub.status == 'monograph_thesis' %}
+    <li>
+      {% if pub.authors %}{{ pub.authors }}:{% endif %}
+      <strong>{{ pub.title }}</strong>,
+      <em>{{ pub.venue }}</em>{% if pub.year %} ({{ pub.year }}){% endif %}
+    </li>
   {% endif %}
 {% endfor %}
+</ul>
