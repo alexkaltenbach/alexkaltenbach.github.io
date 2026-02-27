@@ -8,21 +8,25 @@ author_profile: true
 {% include base_path %}
 
 {% if site.talkmap_link == true %}
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<p><a class="talkmap-link" href="/talkmap.html">Map of talks</a></p>
 {% endif %}
 
 ## Upcoming talks
 
-<ul class="compact-list">
+<ul class="talk-list">
 {% assign talks_sorted = site.talks | sort: "date" %}
 {% for t in talks_sorted %}
   {% if t.status == 'upcoming' %}
-    <li>
-      <strong><a href="{{ t.url | relative_url }}">{{ t.title }}</a></strong>
-      {% if t.venue or t.location or t.date %}<br>{% endif %}
-      {% if t.venue %}<span style="opacity:0.9">{{ t.venue }}</span>{% endif %}
-      {% if t.location %}<span style="opacity:0.9"> · {{ t.location }}</span>{% endif %}
-      {% if t.date %}<span style="opacity:0.8"> · {{ t.date | date: "%b %Y" }}</span>{% endif %}
+    <li class="talk-item">
+      <div class="talk-row">
+        <span class="talk-title">{{ t.title }}</span>
+        <a class="talk-link" href="{{ t.url | relative_url }}">Details</a>
+      </div>
+      <div class="talk-meta">
+        {% if t.venue %}<span>{{ t.venue }}</span>{% endif %}
+        {% if t.location %}<span> · {{ t.location }}</span>{% endif %}
+        {% if t.date %}<span class="talk-date"> · {{ t.date | date: "%B %Y" }}</span>{% endif %}
+      </div>
     </li>
   {% endif %}
 {% endfor %}
@@ -36,15 +40,19 @@ author_profile: true
 {% for year in grouped %}
 ### {{ year.name }}
 
-<ul class="compact-list">
-  {% for t in year.items %}
-    <li>
-      <strong><a href="{{ t.url | relative_url }}">{{ t.title }}</a></strong> 
-      {% if t.venue or t.location or t.date %}<br>{% endif %}
-      {% if t.venue %}<span style="opacity:0.9">{{ t.venue }}</span>{% endif %}
-      {% if t.location %}<span style="opacity:0.9"> · {{ t.location }}</span>{% endif %}
-      {% if t.date %}<span style="opacity:0.8"> · {{ t.date | date: "%B %Y" }}</span>{% endif %}
-    </li>
-  {% endfor %}
+<ul class="talk-list">
+{% for t in year.items %}
+  <li class="talk-item">
+    <div class="talk-row">
+      <span class="talk-title">{{ t.title }}</span>
+      <a class="talk-link" href="{{ t.url | relative_url }}">Details</a>
+    </div>
+    <div class="talk-meta">
+      {% if t.venue %}<span>{{ t.venue }}</span>{% endif %}
+      {% if t.location %}<span> · {{ t.location }}</span>{% endif %}
+      {% if t.date %}<span class="talk-date"> · {{ t.date | date: "%B %Y" }}</span>{% endif %}
+    </div>
+  </li>
+{% endfor %}
 </ul>
 {% endfor %}
