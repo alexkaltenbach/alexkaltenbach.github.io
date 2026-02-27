@@ -20,7 +20,6 @@ author_profile: true
     <li class="talk-item">
       <div class="talk-row">
         <span class="talk-title">{{ t.title }}</span>
-        <a class="talk-link" href="{{ t.url | relative_url }}">Details</a>
       </div>
       <div class="talk-meta">
         {% if t.venue %}<span>{{ t.venue }}</span>{% endif %}

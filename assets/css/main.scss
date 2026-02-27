@@ -10,74 +10,27 @@
  *
 */
 
+/* Publications – clean bibliography style */
+.pub-list { list-style: none; padding-left: 0; margin-top: 0.4rem; }
+.pub-item { padding: 0.55rem 0; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.pub-citation { line-height: 1.55; }
+.pub-title a,
+.pub-citation a { color: inherit; text-decoration: none; }
+.pub-title a:hover,
+.pub-citation a:hover { text-decoration: underline; }
+.pub-links { margin-top: 0.15rem; font-size: 0.92rem; opacity: 0.85; }
+.pub-link { color: inherit; text-decoration: none; }
+.pub-link:hover { text-decoration: underline; opacity: 1; }
+
 /* Talks – clean, CV-like */
-/* ================================
-   Academic clean style (global)
-   ================================ */
+.talkmap-link { text-decoration: underline; }
 
-/* --- Text & spacing --- */
-
-.page__content p,
-.page__content li {
-  line-height: 1.6;
-}
-
-/* --- Remove excessive list bullets spacing --- */
-
-.compact-list,
-.talk-list {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 0.4rem;
-}
-
-/* --- Elegant separators --- */
-
-.compact-list li,
-.talk-list li {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(0,0,0,0.08);
-}
-
-/* --- Links inside lists look like text --- */
-
-.compact-list a,
-.talk-list a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.compact-list a:hover,
-.talk-list a:hover {
-  text-decoration: underline;
-}
-
-/* --- Talk titles --- */
-
-.talk-title a {
-  font-weight: 600;
-}
-
-/* --- Venue / metadata styling --- */
-
-.talk-meta {
-  font-size: 0.95rem;
-  opacity: 0.9;
-}
-
-/* --- Year headings (Talks) --- */
-
-.page__content h3 {
-  margin-top: 1.6rem;
-  margin-bottom: 0.4rem;
-  font-weight: 600;
-}
-
-/* --- Subtle section spacing --- */
-
-.page__content h2 {
-  margin-top: 2rem;
-}
+.talk-list { list-style: none; padding-left: 0; margin-top: 0.5rem; }
+.talk-item { padding: 0.55rem 0; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.talk-row { display: flex; gap: 0.75rem; align-items: baseline; justify-content: space-between; }
+.talk-title { font-weight: 600; color: inherit; } 
+.talk-meta { margin-top: 0.15rem; font-size: 0.95rem; opacity: 0.9; }
+.talk-date { opacity: 0.85; }
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
