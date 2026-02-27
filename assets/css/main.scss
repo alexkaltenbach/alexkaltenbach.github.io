@@ -40,10 +40,7 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* ================================
-   Publications – clean bibliography style
-   ================================ */
-
+/* Publications – clean bibliography style */
 .pub-list { list-style: none; padding-left: 0; margin-top: 0.4rem; }
 .pub-item { padding: 0.55rem 0; border-bottom: 1px solid rgba(0,0,0,0.08); }
 .pub-citation { line-height: 1.55; }
@@ -73,3 +70,10 @@
 .talk-title { font-weight: 600; color: inherit; }
 .talk-meta { margin-top: 0.15rem; font-size: 0.95rem; opacity: 0.9; }
 .talk-date { opacity: 0.85; }
+
+/* Teaching lists – compact, CV-like */
+.teaching-list { list-style: none; padding-left: 0; margin-top: 0.4rem; }
+.teaching-item { padding: 0.45rem 0; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.teaching-title { line-height: 1.4; }
+.teaching-meta { margin-top: 0.1rem; font-size: 0.95rem; opacity: 0.85; }
+.teaching-type { font-weight: normal; }
