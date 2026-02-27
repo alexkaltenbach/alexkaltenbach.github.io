@@ -7,64 +7,76 @@ author_profile: true
 
 {% include base_path %}
 
-<big><b>Lectures and Seminars</b></big><br>
+## Lectures and seminars
 
-Lecture notes: <a href="/files/skript_ode.pdf">Ordinary Differential Equations</a>, <a href="/files/skript_bochner.pdf">Bochner Spaces</a>, <a href="/files/skript_dgl2b.pdf">Differential Equations II/B</a>, <a href="/files/skript_dgl3.pdf">Differential Equations III</a>.<br><br>
+Lecture notes:
+<a href="/files/skript_ode.pdf">Ordinary Differential Equations</a>,
+<a href="/files/skript_bochner.pdf">Bochner Spaces</a>,
+<a href="/files/skript_dgl2b.pdf">Differential Equations II/B</a>,
+<a href="/files/skript_dgl3.pdf">Differential Equations III</a>.
 
-<big>Supervisions</big>
+## Supervisions
 
-{% for post in site.teaching reversed %}
-  {% if post.role == 'supervision' %}
-    {% include archive-single.html %}
+<ul class="compact-list">
+{% assign teachings = site.teaching | sort: "date" | reverse %}
+{% for t in teachings %}
+  {% if t.role == 'supervision' %}
+    <li>
+      <strong><a href="{{ t.url | relative_url }}">{{ t.title }}</a></strong>
+      {% if t.type %} — {{ t.type }}{% endif %}
+      {% if t.venue %}<br><span style="opacity:0.9">{{ t.venue }}</span>{% endif %}
+      {% if t.location %}<span style="opacity:0.9"> · {{ t.location }}</span>{% endif %}
+      {% if t.date %}<span style="opacity:0.8"> · {{ t.date | date: "%Y" }}</span>{% endif %}
+    </li>
   {% endif %}
 {% endfor %}
+</ul>
 
-<big>Assistantships</big>
+## Assistantships
 
-{% for post in site.teaching reversed %}
-  {% if post.role == 'assistance' %}
-    {% include archive-single.html %}
+<ul class="compact-list">
+{% for t in teachings %}
+  {% if t.role == 'assistance' %}
+    <li>
+      <strong><a href="{{ t.url | relative_url }}">{{ t.title }}</a></strong>
+      {% if t.type %} — {{ t.type }}{% endif %}
+      {% if t.venue %}<br><span style="opacity:0.9">{{ t.venue }}</span>{% endif %}
+      {% if t.location %}<span style="opacity:0.9"> · {{ t.location }}</span>{% endif %}
+      {% if t.date %}<span style="opacity:0.8"> · {{ t.date | date: "%Y" }}</span>{% endif %}
+    </li>
   {% endif %}
 {% endfor %}
-
-<big><b>Theses</b></big><br>
-
-<big>Supervised Theses (as First or Co-Supervisor)</big><br>
-
-Master Theses
-<ul>
-  <li>Rebecca Bär (2023). Title: <i>Kurzzeitexistenz von Lösungen autonomer Differenzialgleichungen am Beispiel
-    des Räuber-Beute-Modells</i>. University of Freiburg (Co-supervisor together with Dr. Susanne Knies).</li>
-  <li>Lena Maria Kunze. Working title: <i>A Constructive Approach to Stationary Thermo-rheological Viscous Fluid Dynamics</i>. 
-    Technical University of Berlin (First supervisor);</li>
 </ul>
 
-Bachelor Theses
+## Theses
+
+### Supervised theses (as first or co-supervisor)
+
+**Master’s theses**
 <ul>
-  <li>Paul Maier (2023). Title: <i>Zur Finite-Differenzen-Methode für die Transportgleichung</i>. Technical University
-    of Berlin (First supervisor);</li>
-  <li>Stephan Frank Arndt (2023). Title: <i>Finite-Differenzen-Methode für die Wellengleichung</i>. Technical University
-    of Berlin (First supervisor);</li>
-  <li>Yannick Julian Ciomer (2024). Title: <i>Finite-Differenzen-Methode mit Anwendungen auf die Wärmeleitungsgleichung</i>. Technical University
-    of Berlin (First supervisor).</li>
-  <li>Lennart Korte (2024). Title: <i>Semidiskretisierung abstrakter Gradientenflüsse</i>. Technical University
-      of Berlin (First supervisor);</li>
-  <li>Linus Jonas. Working title: <i>A posteriori Fehleridentitäten auf Grundlage konvexer Dualität</i>. Technical University
-      of Berlin (First supervisor);</li>
+  <li>Rebecca Bär (2023). Title: <i>Kurzzeitexistenz von Lösungen autonomer Differenzialgleichungen am Beispiel des Räuber-Beute-Modells</i>. University of Freiburg (co-supervisor together with Dr. Susanne Knies).</li>
+  <li>Lena Maria Kunze (2025). Title: <i>A Constructive Approach to Stationary Thermo-rheological Viscous Fluid Dynamics</i>. Technical University of Berlin (first supervisor).</li>
+  <li>Kerem Dogan (2025). Title: <i>Convergence analysis for a finite element approximation for the steady model for thermo-rheological fluids</i>. Technical University of Berlin (first supervisor).</li>
+  <li>Niclas Mamerow (2026). Title: <i>A Crouzeix–Raviart approximation of the obstacle problem</i>. Technical University of Berlin (first supervisor).</li>
 </ul>
 
-<big>Currently Supervised Theses (as First Supervisor)</big><br>
-
-Master Theses
+**Bachelor’s theses**
 <ul>
-  <li>Kerem Dogan. Working title: <i>Convergence analysis for a finite element approximation for the steady
-    model for thermo-rheological fluids</i>. Technical University
-    of Berlin (First supervisor);</li>
-  
+  <li>Paul Maier (2023). Title: <i>Zur Finite-Differenzen-Methode für die Transportgleichung</i>. Technical University of Berlin (first supervisor).</li>
+  <li>Stephan Frank Arndt (2023). Title: <i>Finite-Differenzen-Methode für die Wellengleichung</i>. Technical University of Berlin (first supervisor).</li>
+  <li>Yannick Julian Ciomer (2024). Title: <i>Finite-Differenzen-Methode mit Anwendungen auf die Wärmeleitungsgleichung</i>. Technical University of Berlin (first supervisor).</li>
+  <li>Lennart Korte (2024). Title: <i>Semidiskretisierung abstrakter Gradientenflüsse</i>. Technical University of Berlin (first supervisor).</li>
+  <li>Linus Jonas (2024). Title: <i>A posteriori Fehleridentitäten auf Grundlage konvexer Dualität</i>. Technical University of Berlin (first supervisor).</li>
+  <li>Majeb Hobbi (2025). Title: <i>Schwache Lösbarkeit der p(x)-Laplace-Gleichung mit Dirichlet-Randbedingung</i>. Technical University of Berlin (first supervisor).</li>
+  <li>Vigan Memeti (2025). Title: <i>Der Hauptsatz über pseudo-monotone Perturbationen maximal monotoner Operatoren</i>. Technical University of Berlin (first supervisor).</li>
+  <li>Lan Jing (2026). Title: <i>Approximation von Sattelpunktsproblemen</i>. Technical University of Berlin (first supervisor).</li>
 </ul>
 
-Bachelor Theses
+### Currently supervised theses (as first supervisor)
+
+**Master’s theses**
 <ul>
-  <li>Jemma Jin. Working title: <i>Approximation von Sattelpunkproblemen</i>. 
-    Technical University of Berlin (First supervisor).</li>
+  <li>Joram Xylander Gmeiner. Working title: <i>Modelling and analysis for an optimal insulation problem with convective heat transfer</i>. Technical University of Berlin (first supervisor).</li>
+  <li>Valentin Emil Menno Bonjer. Working title: <i>Direct numerical approximation of pulsatile flows of smart fluids</i>. Technical University of Berlin (first supervisor).</li>
+  <li>Sophia Engelbrecht. Working title: <i>Modelling active microswimmers with stochastic orientation: multiplicative noise on the sphere and derivation of the Fokker–Planck equation</i>. Technical University of Berlin (co-supervisor with Sebastian Heidenreich (PTB)).</li>
 </ul>
