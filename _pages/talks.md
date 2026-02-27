@@ -23,7 +23,7 @@ author_profile: true
       {% if t.venue or t.location or t.date %}<br>{% endif %}
       {% if t.venue %}<span style="opacity:0.9">{{ t.venue }}</span>{% endif %}
       {% if t.location %}<span style="opacity:0.9"> · {{ t.location }}</span>{% endif %}
-      {% if t.date %}<span style="opacity:0.8"> · {{ t.date | date: "%Y-%m-%d" }}</span>{% endif %}
+      {% if t.date %}<span style="opacity:0.8"> · {{ t.date | date: "%b %Y" }}</span>{% endif %}
     </li>
   {% endif %}
 {% endfor %}
@@ -41,7 +41,7 @@ author_profile: true
       {% if t.venue or t.location or t.date %}<br>{% endif %}
       {% if t.venue %}<span style="opacity:0.9">{{ t.venue }}</span>{% endif %}
       {% if t.location %}<span style="opacity:0.9"> · {{ t.location }}</span>{% endif %}
-      {% if t.date %}<span style="opacity:0.8"> · {{ t.date | date: "%Y-%m-%d" }}</span>{% endif %}
+      {% if t.date %}<span style="opacity:0.8"> · {{ t.date | date: "%b %Y" }}</span>{% endif %}
     </li>
   {% endif %}
 {% endfor %}
