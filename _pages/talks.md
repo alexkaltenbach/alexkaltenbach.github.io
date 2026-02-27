@@ -19,11 +19,12 @@ author_profile: true
   {% if t.status == 'upcoming' %}
     <li class="talk-item">
       <div class="talk-row">
-        <span class="talk-title">{{ t.title }}</span>{% if t.date %}<span class="talk-date"> · {{ t.date | date: "%B %Y" }}</span>{% endif %}
+        <span class="talk-title">{{ t.title }}</span>
       </div>
       <div class="talk-meta">
         {% if t.venue %}<span>{{ t.venue }}</span>{% endif %}
         {% if t.location %}<span> · {{ t.location }}</span>{% endif %}
+        {% if t.date %}<span class="talk-date"> · {{ t.date | date: "%B %Y" }}</span>{% endif %}
       </div>
     </li>
   {% endif %}
@@ -43,11 +44,11 @@ author_profile: true
   <li class="talk-item">
     <div class="talk-row">
       <span class="talk-title">{{ t.title }}</span>
-      {% if t.date %}<span class="talk-date"> · {{ t.date | date: "%B %Y" }}</span>{% endif %}
     </div>
     <div class="talk-meta">
       {% if t.venue %}<span>{{ t.venue }}</span>{% endif %}
       {% if t.location %}<span> · {{ t.location }}</span>{% endif %}
+      {% if t.date %}<span class="talk-date"> · {{ t.date | date: "%B %Y" }}</span>{% endif %}
     </div>
   </li>
 {% endfor %}

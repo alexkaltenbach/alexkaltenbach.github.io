@@ -44,13 +44,11 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
   {% if pub.status == 'published' %}
     <li class="pub-item">
       <div class="pub-citation">
-        {{ pub.citation }}
-      </div>
-      <div class="pub-links">
+      {{ pub.citation }}
         {% if pub.paperurl %}
-          <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
+        · <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
         {% endif %}
-      </div>
+    </div>
     </li>
   {% endif %}
 {% endfor %}
