@@ -43,12 +43,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
   {% if pub.status == 'published' %}
     <li class="pub-item">
       <div class="pub-citation">
-        {{ pub.citation
-          | replace: 'https://doi.org/', '<a href="https://doi.org/'
-          | replace: '">', '">'
-          | replace: '</a>', '</a>'
-          | append: '</a>'
-        }}
+        {{ pub.citation | markdownify | remove: '<p>' | remove: '</p>' }}
       </div>
     </li>
   {% endif %}
