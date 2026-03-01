@@ -22,8 +22,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 {% for pub in pubs %}
   {% if pub.status == 'unpublished' %}
     <li class="pub-item">
-      <span class="pub-title">{{ pub.title }}
-      </span>
+      <span class="pub-title">{{ pub.title }}</span>
       <div class="pub-meta">
         {% if pub.authors %}{{ pub.authors }}. {% endif %}
         {% if pub.venue %}<em>{{ pub.venue }}</em>{% endif %}
@@ -44,11 +43,13 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
   {% if pub.status == 'published' %}
     <li class="pub-item">
       <div class="pub-citation">
-      {{ pub.citation }}
-        {% if pub.paperurl %}
-        · <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
-        {% endif %}
-    </div>
+        {{ pub.citation
+          | replace: 'https://doi.org/', '<a href="https://doi.org/'
+          | replace: '">', '">'
+          | replace: '</a>', '</a>'
+          | append: '</a>'
+        }}
+      </div>
     </li>
   {% endif %}
 {% endfor %}
@@ -63,7 +64,12 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
   {% if pub.status == 'monograph_book_contribution' %}
     <li class="pub-item">
       {% if pub.citation %}
-        <div class="pub-citation">{{ pub.citation }}</div>
+        <div class="pub-citation">
+          {{ pub.citation
+            | replace: 'https://doi.org/', '<a href="https://doi.org/'
+            | append: '</a>'
+          }}
+        </div>
       {% else %}
         <div class="pub-citation">
           {% if pub.authors %}{{ pub.authors }}. {% endif %}
@@ -72,11 +78,6 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
           {% if pub.date %} ({{ pub.date | date: "%Y" }}){% endif %}
         </div>
       {% endif %}
-      <div class="pub-links">
-        {% if pub.paperurl %}
-          <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
-        {% endif %}
-      </div>
     </li>
   {% endif %}
 {% endfor %}
@@ -89,7 +90,12 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
   {% if pub.status == 'monograph_book' %}
     <li class="pub-item">
       {% if pub.citation %}
-        <div class="pub-citation">{{ pub.citation }}</div>
+        <div class="pub-citation">
+          {{ pub.citation
+            | replace: 'https://doi.org/', '<a href="https://doi.org/'
+            | append: '</a>'
+          }}
+        </div>
       {% else %}
         <div class="pub-citation">
           {% if pub.authors %}{{ pub.authors }}. {% endif %}
@@ -98,11 +104,6 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
           {% if pub.date %} ({{ pub.date | date: "%Y" }}){% endif %}
         </div>
       {% endif %}
-      <div class="pub-links">
-        {% if pub.paperurl %}
-          <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
-        {% endif %}
-      </div>
     </li>
   {% endif %}
 {% endfor %}
@@ -115,7 +116,12 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
   {% if pub.status == 'monograph_thesis' %}
     <li class="pub-item">
       {% if pub.citation %}
-        <div class="pub-citation">{{ pub.citation }}</div>
+        <div class="pub-citation">
+          {{ pub.citation
+            | replace: 'https://doi.org/', '<a href="https://doi.org/'
+            | append: '</a>'
+          }}
+        </div>
       {% else %}
         <div class="pub-citation">
           {% if pub.authors %}{{ pub.authors }}. {% endif %}
@@ -124,11 +130,6 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
           {% if pub.date %} ({{ pub.date | date: "%Y" }}){% endif %}
         </div>
       {% endif %}
-      <div class="pub-links">
-        {% if pub.paperurl %}
-          <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
-        {% endif %}
-      </div>
     </li>
   {% endif %}
 {% endfor %}
