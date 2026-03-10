@@ -84,5 +84,6 @@ author_profile: true
 #### Master’s theses
 
 - **Joram Xylander Gmeiner.** *Modelling and analysis for an optimal insulation problem with convective heat transfer.* TU Berlin.
-- **Valentin Emil Menno Bonjer.** *Direct numerical approximation of pulsatile flows of smart fluids.* TU Berlin.
+- **Valentin Emil Menno Bonjer.** *A fully discrete approach to the time-periodic generalized Navier-Stokes
+equations.* TU Berlin.
 - **Sophia Engelbrecht.** *Modelling active microswimmers with stochastic orientation: multiplicative noise on the sphere and derivation of the Fokker–Planck equation.* TU Berlin (co-supervisor with Sebastian Heidenreich, PTB).
