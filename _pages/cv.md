@@ -13,7 +13,7 @@ redirect_from:
 
 * **Distinguished Fellow**, 03/2026 – 09/2026  
   George Mason University, Fairfax, VA, USA  
-  Research on duality-based error control and numerical methods for digital-twin-based structural health monitoring.  
+  Research on duality-based error control
   Host: Prof. Dr. Harbir Antil  
 
 * **Postdoctoral Research Associate**, 04/2023 – Present  
