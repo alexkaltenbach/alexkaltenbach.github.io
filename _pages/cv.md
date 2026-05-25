@@ -11,7 +11,7 @@ redirect_from:
 
 ## Work Experience
 
-* **Distinguished Fellow**, 03/2026 – 09/2026  
+* **CMAI Distinguished Fellow**, 03/2026 – 09/2026  
   George Mason University, Fairfax, VA, USA  
   Research on duality-based error control
   Host: Prof. Dr. Harbir Antil  
@@ -24,7 +24,7 @@ redirect_from:
 * **Walter Benjamin Fellow**, 07/2023 – 03/2024  
   University of Pisa, Italy  
   Research on numerical methods for smart fluids.  
-  Host: Prof. Dr. Luigi Carlo Berselli  
+  Host: Prof. Dr. Luigi C. Berselli  
   Final Report: [PDF](/files/final_report.pdf)
 
 * **Postdoctoral Research Associate**, 10/2021 – 03/2023  
