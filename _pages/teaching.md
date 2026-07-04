@@ -93,4 +93,4 @@ equations.* TU Berlin (first supervisor).
 - **Sophia Engelbrecht.** *Modelling active microswimmers with stochastic orientation: multiplicative noise on the sphere and derivation of the Fokker–Planck equation.* TU Berlin (co-supervisor with Sebastian Heidenreich, PTB).
 - **Franz Jur.** *Pseudo-monotone operator theory for non-Newtonian fluids in moving domains.* TU Berlin.
 - **Viviane Throl.** *TBA* *.* TU Berlin. 
-- **Yannick Ciomer.** *TBA* *.* TU Berlin. 
+- **Yannick Ciomer.** *TBA* *.* TU Berlin.
