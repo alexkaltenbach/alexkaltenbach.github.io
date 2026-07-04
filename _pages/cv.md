@@ -69,20 +69,6 @@ redirect_from:
 * Nonlinear Analysis: Real World Applications  
 * Lecture Notes in Mathematics  
 
-## Research Funding
-
-* *Walter Benjamin Programme*, 07/2023 – 03/2024  
-  Nine-month fellowship to conduct theoretical and experimental research on numerical methods for smart fluids at the University of Pisa in cooperation with Prof. Dr. L. C. Berselli.  
-  Funding amount: €25,362  
-
-* *DAAD Kongressreisenprogramm 2023*, 08/2023  
-  Travel grant to attend ICIAM 2023 (10th International Congress on Industrial and Applied Mathematics), Tokyo, Japan.  
-  Funding amount: €2,350  
-
-* *Robert Bartnik Fellowship 2025*, 03/2025  
-  Funding for a research stay at Monash University, Australia.  
-  Funding amount: €5,000  
-
 ## Awards
 
 * *Ferdinand-von-Lindemann Prize*, 10/2020  
