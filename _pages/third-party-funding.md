@@ -9,21 +9,31 @@ author_profile: true
 
 ## Research Projects
 
-### Learning-Enhanced Robust Iterative Methods for Non-Smooth and Constrained Variational Problems
+<div class="funding-entry funding-entry--with-logo funding-entry--project">
+  <div class="funding-entry__body">
+    <h3>Learning-Enhanced Robust Iterative Methods for Non-Smooth and Constrained Variational Problems</h3>
+    <ul>
+      <li><strong>Funding line:</strong> DFG-NSFC Sino-German Call on Intelligent Numerical Mathematics (NSFC-DFG 2025 iNum)</li>
+      <li><strong>Project duration:</strong> 2027-2029</li>
+      <li><strong>PIs:</strong> Sören Bartels, Yi Zhu, Alex Kaltenbach, and Shuo Yang</li>
+    </ul>
+    <p>This project develops learning-enhanced numerical methods for non-smooth and constrained variational problems. The goal is to combine classical iterative solvers with machine learning techniques for adaptive parameter selection, improved initial iterates, and automated solver strategies, thereby increasing robustness and computational efficiency for challenging problems from computational mathematics and physics.</p>
+  </div>
+  <img class="funding-logo funding-logo--wide" src="/images/funding/DFG-logo.png" alt="DFG logo">
+</div>
 
-* **Funding line:** DFG-NSFC Sino-German Call on Intelligent Numerical Mathematics (NSFC-DFG 2025 iNum)
-* **Project duration:** 2027-2029
-* **PIs:** Sören Bartels, Yi Zhu, Alex Kaltenbach, and Shuo Yang
-
-This project develops learning-enhanced numerical methods for non-smooth and constrained variational problems. The goal is to combine classical iterative solvers with machine learning techniques for adaptive parameter selection, improved initial iterates, and automated solver strategies, thereby increasing robustness and computational efficiency for challenging problems from computational mathematics and physics.
-
-### DOC-TWIN: Duality-Based Error Control for Optimal Control Problems in Digital-Twin-Based Structural Health Monitoring
-
-* **Funding line:** MATH+ Application Area Technology, project AA-Tech-4
-* **Project duration:** 2027-2028
-* **PIs:** Michael Hintermüller, Alex Kaltenbach, and Harbir Antil
-
-This project develops a convex-duality-based framework for reliable a posteriori and a priori error control in optimal control problems arising in digital-twin-based structural health monitoring. The methods aim to provide trustworthy error identities, adaptive mesh refinement strategies, and certified numerical solvers for safety-critical applications involving civil infrastructure.
+<div class="funding-entry funding-entry--with-logo funding-entry--project">
+  <div class="funding-entry__body">
+    <h3>DOC-TWIN: Duality-Based Error Control for Optimal Control Problems in Digital-Twin-Based Structural Health Monitoring</h3>
+    <ul>
+      <li><strong>Funding line:</strong> MATH+ Application Area Technology, project AA-Tech-4</li>
+      <li><strong>Project duration:</strong> 2027-2028</li>
+      <li><strong>PIs:</strong> Michael Hintermüller, Alex Kaltenbach, and Harbir Antil</li>
+    </ul>
+    <p>This project develops a convex-duality-based framework for reliable a posteriori and a priori error control in optimal control problems arising in digital-twin-based structural health monitoring. The methods aim to provide trustworthy error identities, adaptive mesh refinement strategies, and certified numerical solvers for safety-critical applications involving civil infrastructure.</p>
+  </div>
+  <img class="funding-logo funding-logo--mathplus" src="/images/funding/MathPlus-logo.png" alt="MATH+ logo">
+</div>
 
 ## Fellowships and Grants
 
@@ -35,7 +45,7 @@ This project develops a convex-duality-based framework for reliable a posteriori
     Nine-month fellowship to conduct theoretical and experimental research on numerical methods for smart fluids at the University of Pisa in cooperation with Prof. Dr. L. C. Berselli.<br>
     Funding amount: €25,362</p>
   </div>
-  <img class="funding-logo funding-logo--dfg" src="/images/funding/dfg-logo.svg" alt="DFG logo">
+  <img class="funding-logo funding-logo--walter-benjamin" src="/images/funding/WalterBenjamin-logo.jpg" alt="Walter Benjamin Programme logo">
 </div>
 
 ### Travel and Research-Stay Grants
