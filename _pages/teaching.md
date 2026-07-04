@@ -67,6 +67,8 @@ author_profile: true
 - **Lena Maria Kunze** (2025). *A Constructive Approach to Stationary Thermo-rheological Viscous Fluid Dynamics.* TU Berlin (first supervisor).
 - **Kerem Dogan** (2025). *Convergence analysis for a finite element approximation for the steady model for thermo-rheological fluids.* TU Berlin (first supervisor).
 - **Niclas Mamerow** (2026). *A Crouzeix–Raviart approximation of the obstacle problem.* TU Berlin (first supervisor).
+- **Valentin Emil Menno Bonjer.** *A fully discrete approach to the time-periodic generalized Navier-Stokes
+equations.* TU Berlin (first supervisor).
 
 #### Bachelor’s theses
 
@@ -81,9 +83,14 @@ author_profile: true
 
 ### Currently supervised theses (as first supervisor)
 
+#### Bachelor’s theses
+
+- **Erik Le.** *Deep Ritz Methode.* TU Berlin.
+
 #### Master’s theses
 
 - **Joram Xylander Gmeiner.** *Modelling and analysis for an optimal insulation problem with convective heat transfer.* TU Berlin.
-- **Valentin Emil Menno Bonjer.** *A fully discrete approach to the time-periodic generalized Navier-Stokes
-equations.* TU Berlin.
 - **Sophia Engelbrecht.** *Modelling active microswimmers with stochastic orientation: multiplicative noise on the sphere and derivation of the Fokker–Planck equation.* TU Berlin (co-supervisor with Sebastian Heidenreich, PTB).
+- **Franz Jur.** *Pseudo-monotone operator theory for non-Newtonian fluids in moving domains.* TU Berlin.
+- **Viviane Throl.** *TBA* *.* TU Berlin. 
+- **Yannick Ciomer.** *TBA* *.* TU Berlin. 

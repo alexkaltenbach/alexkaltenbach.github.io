@@ -29,9 +29,14 @@ This project develops a convex-duality-based framework for reliable a posteriori
 
 ### Research Fellowships
 
-* *Walter Benjamin Programme*, 07/2023 – 03/2024  
-  Nine-month fellowship to conduct theoretical and experimental research on numerical methods for smart fluids at the University of Pisa in cooperation with Prof. Dr. L. C. Berselli.  
-  Funding amount: €25,362  
+<div class="funding-entry funding-entry--with-logo">
+  <div class="funding-entry__body">
+    <p><em>Walter Benjamin Programme</em>, 07/2023 – 03/2024<br>
+    Nine-month fellowship to conduct theoretical and experimental research on numerical methods for smart fluids at the University of Pisa in cooperation with Prof. Dr. L. C. Berselli.<br>
+    Funding amount: €25,362</p>
+  </div>
+  <img class="funding-logo funding-logo--dfg" src="/images/funding/dfg-logo.svg" alt="DFG logo">
+</div>
 
 ### Travel and Research-Stay Grants
 

@@ -77,3 +77,42 @@
 .teaching-title { line-height: 1.4; }
 .teaching-meta { margin-top: 0.1rem; font-size: 0.95rem; opacity: 0.85; }
 .teaching-type { font-weight: normal; }
+
+/* Funding page – compact institutional marks */
+.funding-entry {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0.35rem 0 0.5rem;
+}
+
+.funding-entry__body {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.funding-entry__body p {
+  margin-bottom: 0;
+}
+
+.funding-logo {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 96px;
+  max-height: 42px;
+  margin-top: 0.15rem;
+  opacity: 0.9;
+}
+
+@media (max-width: 480px) {
+  .funding-entry {
+    display: block;
+  }
+
+  .funding-logo {
+    display: block;
+    max-width: 88px;
+    margin: 0.35rem 0 0;
+  }
+}
