@@ -15,6 +15,7 @@ author_profile: true
     <ul>
       <li><strong>Funding line:</strong> DFG-NSFC Sino-German Call on Intelligent Numerical Mathematics (NSFC-DFG 2025 iNum)</li>
       <li><strong>Project duration:</strong> 2027-2029</li>
+      <li><strong>Funding awarded:</strong> €201,800 plus 22% programme allowance (DFG share)</li>
       <li><strong>PIs:</strong> Sören Bartels, Yi Zhu, Alex Kaltenbach, and Shuo Yang</li>
     </ul>
     <p>This project develops learning-enhanced numerical methods for non-smooth and constrained variational problems. The goal is to combine classical iterative solvers with machine learning techniques for adaptive parameter selection, improved initial iterates, and automated solver strategies, thereby increasing robustness and computational efficiency for challenging problems from computational mathematics and physics.</p>
@@ -28,6 +29,7 @@ author_profile: true
     <ul>
       <li><strong>Funding line:</strong> MATH+ Application Area Technology, project AA-Tech-4</li>
       <li><strong>Project duration:</strong> 2027-2028</li>
+      <li><strong>Funding awarded:</strong> one full-time research position (TV-L E13, 100%) for two years</li>
       <li><strong>PIs:</strong> Michael Hintermüller, Alex Kaltenbach, and Harbir Antil</li>
     </ul>
     <p>This project develops a convex-duality-based framework for reliable a posteriori and a priori error control in optimal control problems arising in digital-twin-based structural health monitoring. The methods aim to provide trustworthy error identities, adaptive mesh refinement strategies, and certified numerical solvers for safety-critical applications involving civil infrastructure.</p>
