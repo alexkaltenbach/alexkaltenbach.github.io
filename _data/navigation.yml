@@ -3,15 +3,15 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Third-Party Funding"
+    url: /third-party-funding/
+
   - title: "Talks"
     url: /talks/    
 
   - title: "Teaching"
     url: /teaching/    
 
-  - title: "Third-Party Funding"
-    url: /third-party-funding/
-    
   #- title: "Portfolio"
   #  url: /portfolio/
         
