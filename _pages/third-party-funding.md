@@ -35,6 +35,10 @@ This project develops a convex-duality-based framework for reliable a posteriori
 
 ### Travel and Research-Stay Grants
 
+* *DAAD Kongressreisenprogramm 2026*, 2026  
+  Travel grant to attend CMAM2026, Vienna, Austria.  
+  Funding amount: €924  
+
 * *DAAD Kongressreisenprogramm 2023*, 08/2023  
   Travel grant to attend ICIAM 2023 (10th International Congress on Industrial and Applied Mathematics), Tokyo, Japan.  
   Funding amount: €2,350  
