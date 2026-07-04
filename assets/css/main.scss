@@ -107,25 +107,25 @@
 .funding-logo {
   flex: 0 0 auto;
   width: auto;
-  max-width: 180px;
-  max-height: 80px;
+  max-width: 230px;
+  max-height: 105px;
   margin-top: 0.15rem;
   opacity: 0.9;
 }
 
 .funding-logo--wide {
-  max-width: 300px;
-  max-height: 88px;
+  max-width: 380px;
+  max-height: 112px;
 }
 
 .funding-logo--mathplus {
-  max-width: 230px;
-  max-height: 92px;
+  max-width: 300px;
+  max-height: 120px;
 }
 
 .funding-logo--walter-benjamin {
-  max-width: 260px;
-  max-height: 150px;
+  max-width: 340px;
+  max-height: 195px;
 }
 
 @media (max-width: 480px) {
@@ -135,13 +135,13 @@
 
   .funding-logo {
     display: block;
-    max-width: 180px;
+    max-width: 210px;
     margin: 0.35rem 0 0;
   }
 
   .funding-logo--wide,
   .funding-logo--mathplus,
   .funding-logo--walter-benjamin {
-    max-width: 190px;
+    max-width: 220px;
   }
 }
