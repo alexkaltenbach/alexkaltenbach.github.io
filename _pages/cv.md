@@ -68,6 +68,7 @@ redirect_from:
 * Journal of Optimization Theory and Applications  
 * Nonlinear Analysis: Real World Applications  
 * Lecture Notes in Mathematics  
+* ESAIM: Mathematical Modelling and Numerical Analysis (ESAIM: M2AN)
 
 ## Awards
 
