@@ -92,7 +92,7 @@ equations.* TU Berlin (first supervisor).
 
 - **Joram Xylander Gmeiner.** *Modelling and analysis for an optimal insulation problem with convective heat transfer.* TU Berlin.
 - **Franz Jur.** *Pseudo-monotone operator theory for non-Newtonian fluids in moving domains.* TU Berlin.
-- **Nils Bargtel.** *Deep Ritz approximation of the parametric p-Dirichlet problem* *.* TU Berlin.
+<!--- **Nils Bargtel.** *Deep Ritz approximation of the parametric p-Dirichlet problem* *.* TU Berlin.-->
 - **Viviane Throl.** *TBA* *.* TU Berlin. 
 - **Yannick Ciomer.** *TBA* *.* TU Berlin.
 - **Denis Matusczyk.** *TBA* *.* TU Berlin.
