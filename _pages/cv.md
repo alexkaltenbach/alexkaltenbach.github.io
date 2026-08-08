@@ -70,6 +70,7 @@ redirect_from:
 * Lecture Notes in Mathematics  
 * ESAIM: Mathematical Modelling and Numerical Analysis (ESAIM: M2AN)
 * SIAM Journal on Scientific Computing
+* Computers & mathematics with applications
 
 ## Awards
 
