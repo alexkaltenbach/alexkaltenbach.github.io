@@ -71,6 +71,7 @@ redirect_from:
 * ESAIM: Mathematical Modelling and Numerical Analysis (ESAIM: M2AN)
 * SIAM Journal on Scientific Computing
 * Computers & Mathematics with Applications
+* Advances in Computational Mathematics
 
 ## Awards
 
