@@ -86,14 +86,14 @@ equations.* TU Berlin (first supervisor).
 
 #### Bachelor’s theses
 
-- **Erik Le.** *Deep Ritz Methode.* TU Berlin.
+- **Erik Le.** *Γ-Konvergenzanalyse für eine DeepRitz-Approximation des Dirichlet-Energie.* TU Berlin.
 
 #### Master’s theses
 
 - **Joram Xylander Gmeiner.** *Modelling and analysis for an optimal insulation problem with convective heat transfer.* TU Berlin.
 - **Franz Jur.** *Pseudo-monotone operator theory for non-Newtonian fluids in moving domains.* TU Berlin.
-<!--- **Nils Bargtel.** *Deep Ritz approximation of the parametric p-Dirichlet problem* *.* TU Berlin.-->
+- **Yannick Ciomer.** *Duality-based error-certified warmstart operators for nonlinear iterative solvers.* *.* TU Berlin.
+- **Nils Bargtel.** *A priori error analysis for a Deep Ritz approximation of a parametric Dirichlet problem.* *.* TU Berlin.
 - **Viviane Throl.** *TBA* *.* TU Berlin. 
-- **Yannick Ciomer.** *TBA* *.* TU Berlin.
 - **Denis Matusczyk.** *TBA* *.* TU Berlin.
 
