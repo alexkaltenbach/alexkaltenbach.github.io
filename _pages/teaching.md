@@ -92,8 +92,8 @@ equations.* TU Berlin (first supervisor).
 
 - **Joram Xylander Gmeiner.** *Modelling and analysis for an optimal insulation problem with convective heat transfer.* TU Berlin.
 - **Franz Jur.** *Pseudo-monotone operator theory for non-Newtonian fluids in moving domains.* TU Berlin.
-- **Yannick Ciomer.** *Duality-based error-certified warmstart operators for nonlinear iterative solvers.* *.* TU Berlin.
-- **Nils Bargtel.** *A priori error analysis for a Deep Ritz approximation of a parametric Dirichlet problem.* *.* TU Berlin.
-- **Viviane Throl.** *TBA* *.* TU Berlin. 
-- **Denis Matusczyk.** *TBA* *.* TU Berlin.
+- **Yannick Ciomer.** *Duality-based error-certified warmstart operators for nonlinear iterative solvers.* TU Berlin.
+- **Nils Bargtel.** *A priori error analysis for a Deep Ritz approximation of a parametric Dirichlet problem.* TU Berlin.
+- **Viviane Throl.** *TBA.* TU Berlin. 
+- **Denis Matusczyk.** *TBA.* TU Berlin.
 
