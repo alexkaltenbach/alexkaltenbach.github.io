@@ -37,6 +37,23 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 {% endfor %}
 </ul>
 
+## Accepted / forthcoming
+
+<ul class="pub-list">
+{% for pub in pubs %}
+  {% if pub.status == 'accepted' %}
+    <li class="pub-item">
+      <div class="pub-citation">
+      {{ pub.citation }}
+        {% if pub.paperurl %}
+        · <a class="pub-link" href="{{ pub.paperurl }}">{{ pub.link_label | default: "Link" }}</a>
+        {% endif %}
+      </div>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
 ## Peer-reviewed publications
 
 <ul class="pub-list">
