@@ -25,7 +25,6 @@ author_profile: true
     <li class="teaching-item">
       <div class="teaching-title">
         <em>{{ t.title }}</em>
-        {% if t.type %}<span class="teaching-type"> — {{ t.type }}</span>{% endif %}
       </div>
       <div class="teaching-meta">
         {% if t.venue %}{{ t.venue }}{% endif %}
@@ -45,7 +44,6 @@ author_profile: true
     <li class="teaching-item">
       <div class="teaching-title">
         <em>{{ t.title }}</em>
-        {% if t.type %}<span class="teaching-type"> — {{ t.type }}</span>{% endif %}
       </div>
       <div class="teaching-meta">
         {% if t.venue %}{{ t.venue }}{% endif %}
@@ -94,6 +92,5 @@ equations.* TU Berlin (first supervisor).
 - **Franz Jur.** *Pseudo-monotone operator theory for non-Newtonian fluids in moving domains.* TU Berlin.
 - **Yannick Ciomer.** *Duality-based error-certified warmstart operators for nonlinear iterative solvers.* TU Berlin.
 - **Nils Bargtel.** *A priori error analysis for a Deep Ritz approximation of a parametric Dirichlet problem.* TU Berlin.
-- **Viviane Throl.** *TBA.* TU Berlin. 
+- **Viviane Throl.** *TBA.* TU Berlin.
 - **Denis Matusczyk.** *TBA.* TU Berlin.
-
