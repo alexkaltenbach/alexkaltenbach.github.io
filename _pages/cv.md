@@ -11,15 +11,15 @@ redirect_from:
 
 ## Work Experience
 
-* **CMAI Distinguished Fellow**, 03/2026 – 09/2026  
-  George Mason University, Fairfax, VA, USA  
-  Research on duality-based error control for optimal control problems in structural health monitoring.  
-  Host: Prof. Dr. Harbir Antil  
-
 * **Postdoctoral Research Associate**, 04/2023 – Present  
   Technical University of Berlin, Germany  
   Teaching and supervision of exercise sessions, seminars, theses, and lectures.  
   Supervisor: Prof. Dr. Etienne Emmrich  
+
+* **CMAI Distinguished Fellow**, 03/2026 – 09/2026  
+  George Mason University, Fairfax, VA, USA  
+  Research on duality-based error control for optimal control problems in structural health monitoring.  
+  Host: Prof. Dr. Harbir Antil  
 
 * **Walter Benjamin Fellow**, 07/2023 – 03/2024  
   University of Pisa, Italy  
