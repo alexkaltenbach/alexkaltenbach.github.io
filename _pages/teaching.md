@@ -84,7 +84,7 @@ equations.* TU Berlin (first supervisor).
 
 #### Bachelor’s theses
 
-- **Erik Le.** *Γ-Konvergenzanalyse für eine DeepRitz-Approximation der Dirichlet-Energie.* TU Berlin.
+- **Erik Le.** *Γ-Konvergenzanalyse für eine Deep-Ritz-Approximation der Dirichlet-Energie.* TU Berlin.
 
 #### Master’s theses
 
