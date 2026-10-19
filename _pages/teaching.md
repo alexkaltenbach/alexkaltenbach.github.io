@@ -92,6 +92,6 @@ equations.* TU Berlin (first supervisor).
 - **Franz Jur.** *Pseudo-monotone operator theory for non-Newtonian fluids in moving domains.* TU Berlin.
 - **Yannick Ciomer.** *Duality-based error-certified warmstart operators for nonlinear iterative solvers.* TU Berlin.
 - **Nils Bargtel.** *A priori error analysis for a Deep Ritz approximation of a parametric Dirichlet problem.* TU Berlin.
-- **Viviane Throl.** *Analysis and Optimal Control of the Bidomain System on Moving Domains* TU Berlin.
+- **Viviane Throl.** *Analysis and Optimal Control of the Bidomain System on Moving Domains.* TU Berlin.
 - **Luca Jan Tekbas.** *Wie neuronale Netze lernen: Mathematische Grundlagen und didaktische Aufbereitung von Backpropagation für die gymnasiale Oberstufe.* TU Berlin
 - **Denis Matusczyk.** *TBA.* TU Berlin.
