@@ -14,6 +14,14 @@ From March to September 2026, I was a Distinguished Fellow at George Mason Unive
 
 Previously, I held a postdoctoral position at the University of Freiburg, where I also completed my PhD under the supervision of Prof. Michael Růžička. From July 2023 to March 2024, I was a Walter Benjamin Fellow of the German Research Foundation (DFG) at the University of Pisa, working with Prof. Luigi C. Berselli on numerical methods for smart fluids.
 
+## Open position
+
+We invite applications for a **two-year, full-time postdoctoral position at WIAS Berlin** within the MATH+ project **DOC-TWIN**, which I co-lead with Michael Hintermüller and Harbir Antil.
+
+The project focuses on duality-based error control for PDE-constrained optimisation in digital-twin-based structural health monitoring. The position is scheduled to start on **1 January 2027**, with remuneration according to TVöD Bund E13.
+
+Please see the [full job advertisement](https://www.mathjobs.org/jobs/list/29323) (reference 26/22) for details. Applications must be submitted through the WIAS application portal linked in the announcement.
+
 ## Research profile
 
 My research focuses on the numerical analysis of nonlinear PDEs and nonsmooth variational problems. I combine nonlinear functional analysis, convex duality, and structure-preserving discretisation to develop reliable approximations, computable error estimates, and efficient nonlinear solvers.
