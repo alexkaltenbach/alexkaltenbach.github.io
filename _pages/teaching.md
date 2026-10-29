@@ -85,6 +85,8 @@ equations.* TU Berlin (first supervisor).
 #### Bachelor’s theses
 
 - **Erik Le.** *Γ-Konvergenzanalyse für eine Deep-Ritz-Approximation der Dirichlet-Energie.* TU Berlin.
+- **Jinxian Li.** *Finite Difference Methods for the Poisson Equation.* TU Berlin.
+- **Leonie Kettner.** *TBA.* TU Berlin.
 
 #### Master’s theses
 
@@ -94,4 +96,4 @@ equations.* TU Berlin (first supervisor).
 - **Nils Bargtel.** *A priori error analysis for a Deep Ritz approximation of a parametric Dirichlet problem.* TU Berlin.
 - **Viviane Throl.** *Analysis and Optimal Control of the Bidomain System on Moving Domains.* TU Berlin.
 - **Luca Jan Tekbas.** *Wie neuronale Netze lernen: Mathematische Grundlagen und didaktische Aufbereitung von Backpropagation für die gymnasiale Oberstufe.* TU Berlin
-- **Denis Matusczyk.** *TBA.* TU Berlin.
+- **Denis Matusczyk.** *Nullstellen trotz Knick: Mathematische Grundlagen und didaktische Aufbereitung des klassischen und semiglatten Newton-Verfahrens für die gymnasiale Oberstufe.* TU Berlin.
