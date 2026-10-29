@@ -86,7 +86,7 @@ equations.* TU Berlin (first supervisor).
 
 - **Erik Le.** *Γ-Konvergenzanalyse für eine Deep-Ritz-Approximation der Dirichlet-Energie.* TU Berlin.
 - **Jinxian Li.** *Finite Difference Methods for the Poisson Equation.* TU Berlin.
-- **Leonie Kettner.** *TBA.* TU Berlin.
+- **Leonie Kettner.** *Lineare Hawkes-Prozesse zur Modellierung neuronaler Aktivität* TU Berlin.
 
 #### Master’s theses
 
