@@ -95,5 +95,6 @@ equations.* TU Berlin (first supervisor).
 - **Yannick Ciomer.** *Duality-based error-certified warmstart operators for nonlinear iterative solvers.* TU Berlin.
 - **Nils Bargtel.** *A priori error analysis for a Deep Ritz approximation of a parametric Dirichlet problem.* TU Berlin.
 - **Viviane Throl.** *Analysis and Optimal Control of the Bidomain System on Moving Domains.* TU Berlin.
+- **Stephan Arndt.** *Error analysis for an exactly divergence-free finite element approximation of the $p$-Navier--Stokes equations for small shear exponents.* TU Berlin.
 - **Luca Jan Tekbas.** *Wie neuronale Netze lernen: Mathematische Grundlagen und didaktische Aufbereitung von Backpropagation für die gymnasiale Oberstufe.* TU Berlin
 - **Denis Matusczyk.** *Nullstellen trotz Knick: Mathematische Grundlagen und didaktische Aufbereitung des klassischen und semiglatten Newton-Verfahrens für die gymnasiale Oberstufe.* TU Berlin.
