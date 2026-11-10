@@ -65,7 +65,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
         {% if pub.paperurl %}
         · <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
         {% endif %}
-    </div>
+      </div>
     </li>
   {% endif %}
 {% endfor %}
@@ -125,7 +125,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 {% endfor %}
 </ul>
 
-### PhD thesis
+## Theses
 
 <ul class="pub-list">
 {% for pub in pubs %}
@@ -149,4 +149,22 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
     </li>
   {% endif %}
 {% endfor %}
+  <li class="pub-item">
+    <div class="pub-citation">
+      Kaltenbach, A. Verallgemeinerte nichtlineare Evolutionsgleichungen.
+      Master's thesis, University of Freiburg (2019).
+    </div>
+    <div class="pub-links">
+      <a class="pub-link" href="{{ '/files/Kaltenbach_Masterarbeit_2019.pdf' | relative_url }}">PDF · korrigierte Version</a>
+    </div>
+  </li>
+  <li class="pub-item">
+    <div class="pub-citation">
+      Kaltenbach, A. Nichtlineare Evolutionsgleichungen.
+      Bachelor's thesis, University of Freiburg (2017).
+    </div>
+    <div class="pub-links">
+      <a class="pub-link" href="{{ '/files/Kaltenbach_Bachelorarbeit_2017.pdf' | relative_url }}">PDF · korrigierte Version</a>
+    </div>
+  </li>
 </ul>
