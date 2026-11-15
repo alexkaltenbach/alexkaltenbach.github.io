@@ -1,34 +1,18 @@
-<figure class="research-example" aria-labelledby="research-example-title">
-  <header class="research-example__header">
-    <p class="research-example__eyebrow">Research example · QH-GEM</p>
-    <h3 id="research-example-title">Transporting a probability density</h3>
-  </header>
-  <div class="research-example__panels">
-    <div class="research-example__panel">
-      <p class="research-example__step"><span>01</span> Reference <small>t = 0</small></p>
-      <img src="{{ '/images/research/qhgem-reference.svg' | relative_url }}" width="300" height="212" loading="lazy" decoding="async" alt="At time zero, the computed density is a single Gaussian peak; the target has two separated peaks.">
+{% assign example = site.data.research_highlights[include.topic] %}
+<figure class="research-example" aria-labelledby="research-example-{{ include.topic }}">
+  <div class="research-example__visual">
+    <a class="research-example__image-link" href="{{ example.image | relative_url }}" aria-label="View larger figure: {{ example.title | escape }}">
+      <img src="{{ example.image | relative_url }}" width="{{ example.width }}" height="{{ example.height }}" loading="lazy" decoding="async" alt="{{ example.alt | escape }}">
+    </a>
+    <div class="research-example__source">
+      <a href="{{ example.source_url }}">{{ example.source_label }}</a>
+      <span aria-hidden="true"> · </span>
+      <a href="{{ example.image | relative_url }}">Enlarge</a>
     </div>
-    <div class="research-example__panel">
-      <p class="research-example__step"><span>02</span> In transit <small>t = T/2</small></p>
-      <img src="{{ '/images/research/qhgem-intermediate.svg' | relative_url }}" width="300" height="212" loading="lazy" decoding="async" alt="At the intermediate time, the density has developed two peaks while evolving towards the target.">
-    </div>
-    <div class="research-example__panel">
-      <p class="research-example__step"><span>03</span> Computed result <small>t = T</small></p>
-      <img src="{{ '/images/research/qhgem-result.svg' | relative_url }}" width="300" height="212" loading="lazy" decoding="async" alt="At the final time, the computed bimodal density closely follows the target, with small remaining differences.">
-    </div>
-  </div>
-  <div class="research-example__legend">
-    <span><i class="research-example__line" aria-hidden="true"></i>Computed density</span>
-    <span><i class="research-example__line research-example__line--target" aria-hidden="true"></i>Target density</span>
   </div>
   <figcaption>
-    An initial phase identified by PDE-constrained optimisation steers a Gaussian
-    density towards a bimodal target through quantum-hydrodynamic dynamics.
-    These numerical snapshots show the evolution and the remaining mismatch at the final time.
-    <span class="research-example__credit">Joint work with Harbir Antil and Sarswati Shah.</span>
-    <span class="research-resource-links">
-      <a href="https://arxiv.org/abs/2608.27216">Read the preprint</a>
-      <a href="https://github.com/alexkaltenbach/qh-gem-matlab">MATLAB code &amp; data</a>
-    </span>
+    <h3 id="research-example-{{ include.topic }}">{{ example.title }}</h3>
+    <p class="research-example__caption">{{ example.caption }}</p>
+    {% include research-publications.html topic=include.topic %}
   </figcaption>
 </figure>

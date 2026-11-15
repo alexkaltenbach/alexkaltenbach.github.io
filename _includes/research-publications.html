@@ -1,0 +1,12 @@
+{% assign selected_papers = site.data.research_highlights[include.topic].papers %}
+<div class="research-papers">
+  <p class="research-papers__label">{% if selected_papers.size == 1 %}Selected paper{% else %}Selected papers{% endif %}</p>
+  <ul class="research-papers__list">
+    {% for paper in selected_papers %}
+    <li>
+      <a class="research-papers__title" href="{{ paper.url }}">{{ paper.title }}</a>
+      <span class="research-papers__meta">{{ paper.authors }} · {{ paper.venue }} · {{ paper.year }}{% if paper.code_url %} · <a href="{{ paper.code_url }}" aria-label="Code for {{ paper.title | escape }}">Code</a>{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

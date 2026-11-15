@@ -1,0 +1,76 @@
+duality:
+  title: Adaptive refinement guided by duality
+  image: /images/research/signorini-adaptive-gap.svg
+  width: 419
+  height: 344
+  alt: "Log-log plot of the squared primal-dual gap estimator against degrees of freedom. Adaptive refinement (blue circles) decreases faster than uniform refinement (green squares)."
+  caption: "In this scalar Signorini example, adaptive refinement reduces the squared primal–dual gap estimator faster than uniform refinement for a comparable number of degrees of freedom."
+  source_label: "Signorini example · Figure 4"
+  source_url: https://arxiv.org/abs/2407.10912
+  papers:
+    - title: Error identities for the scalar Signorini problem
+      authors: S. Bartels, T. Gudi, A. Kaltenbach
+      venue: SIAM J. Numer. Anal.
+      year: 2025
+      url: https://doi.org/10.1137/24M1677691
+    - title: Exact error control via convex duality
+      authors: S. Bartels, A. Kaltenbach
+      venue: Adv. Appl. Mech. · Review
+      year: 2024
+      url: https://doi.org/10.1016/bs.aams.2024.04.001
+    - title: A prox-based semismooth Newton method
+      authors: S. Bartels, A. Kaltenbach
+      venue: Preprint
+      year: 2026
+      url: https://arxiv.org/abs/2606.25948
+fluids:
+  title: Resolving a variable-exponent flow profile
+  image: /images/research/smart-fluids-profile.png
+  width: 800
+  height: 639
+  alt: "Exact and computed asymmetric velocity profiles for a stationary benchmark. Dashed finite element profiles approach the solid exact curve under refinement; red lines show the discontinuous exponent and a purple line the prescribed flux."
+  caption: "In this stationary benchmark from the pulsatile-flow study, finite element profiles approach an exact asymmetric solution. The red steps show the discontinuous exponent; the purple line marks the prescribed flux."
+  source_label: "Pulsatile-flow study · Figure 9, left"
+  source_url: https://github.com/alexkaltenbach/pulsatile-smart-fluids-code/blob/b3d4d4e3d68c2145e46490d5e47a07b1ccda16db/pLaplaceMixed/plots/Figure9.pdf
+  papers:
+    - title: Pulsatile flows for simplified smart fluids
+      authors: L. C. Berselli, A. Kaltenbach
+      venue: Math. Models Methods Appl. Sci.
+      year: 2026
+      url: https://doi.org/10.1142/S0218202527500023
+      code_url: https://github.com/alexkaltenbach/pulsatile-smart-fluids-code
+    - title: Fully discrete approximation of unsteady variable-exponent Navier–Stokes equations
+      authors: L. C. Berselli, A. Kaltenbach
+      venue: Numer. Math.
+      year: 2025
+      url: https://doi.org/10.1007/s00211-025-01450-1
+insulation:
+  papers:
+    - title: Convection effects and optimal insulation
+      authors: A. Kaltenbach, H. Antil, K. L. A. Kirk
+      venue: ESAIM Control Optim. Calc. Var.
+      year: 2026
+      url: https://doi.org/10.1051/cocv/2026064
+neural:
+  papers:
+    - title: The Deep Ritz method for parametric p-Dirichlet problems
+      authors: A. Kaltenbach, M. Zeinhofer
+      venue: Adv. Contin. Discrete Models
+      year: 2026
+      url: https://doi.org/10.1186/s13662-025-04043-2
+qhgem:
+  title: From a Gaussian to a bimodal density
+  image: /images/research/qhgem-density-transport.svg
+  width: 450
+  height: 365
+  alt: "The initial density is a single Gaussian peak. The computed final density has two peaks and closely follows the dashed orange target, with small remaining differences."
+  caption: "An identified initial phase steers a Gaussian density towards a bimodal target through quantum-hydrodynamic dynamics. The final computed density closely follows the target, with a small remaining mismatch."
+  source_label: "QH-GEM · Figure 4 reference data"
+  source_url: https://github.com/alexkaltenbach/qh-gem-matlab/tree/117aa2ee2ea396aec22eaca6df6ae14d9b456376/reference_data
+  papers:
+    - title: "QH-GEM: Quantum-Hydrodynamic Generative Modeling"
+      authors: H. Antil, A. Kaltenbach, S. Shah
+      venue: Preprint
+      year: 2026
+      url: https://arxiv.org/abs/2608.27216
+      code_url: https://github.com/alexkaltenbach/qh-gem-matlab

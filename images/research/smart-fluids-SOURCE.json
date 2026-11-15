@@ -1,0 +1,29 @@
+{
+  "title": "Finite element approximation of a variable-exponent flow",
+  "authors": [
+    "Luigi C. Berselli",
+    "Alex Kaltenbach"
+  ],
+  "paper": "Pulsatile Flows for Simplified Smart Fluids with Variable Exponent Power-Law: Analysis and Numerics",
+  "doi": "https://doi.org/10.1142/S0218202527500023",
+  "repository": "https://github.com/alexkaltenbach/pulsatile-smart-fluids-code",
+  "commit": "b3d4d4e3d68c2145e46490d5e47a07b1ccda16db",
+  "archive": "https://doi.org/10.5281/zenodo.21179010",
+  "source_file": "pLaplaceMixed/plots/Figure9.pdf",
+  "source_file_sha256": "8cf67fdebe566e21197b310afe69e4b20634fb61344a11ed9696dc2e4fadafba",
+  "plot_code": "pLaplaceMixed/paper_figures.py, make_figure9 / plot_solution_panel",
+  "figure": "Figure 9, left panel; non-even case in Section 7.2 (equation 7.5 per repository README)",
+  "transformation": "Vector PDF extracted with crop [0, 0, 478, 381.467] pt. Plot curves, numeric axes, colors, labels and legend are unchanged. No new solver run and no estimated/digitized numerical data.",
+  "meaning": "Red step lines: p(x)=2.5 for x≤0.5 and p(x)=1.5 for x>0.5 on (-1,1). Solid blue: exact stationary benchmark v. Dashed blue: nine finite element approximations evaluated at final time L. Purple: prescribed flux alpha. The example illustrates a steady nonlinear benchmark inside the pulsatile-flow study; it is not a measured flow or a time sequence.",
+  "caption": "Finite element velocity profiles approach the exact asymmetric benchmark for a discontinuous material exponent. Dashed curves show nine refinement levels; the red steps indicate p(x), and the purple line is the prescribed flux.",
+  "alt": "Exact velocity profile and nine finite element approximations for a non-even variable-exponent flow. The approximations approach an asymmetric profile as the discretization is refined; the material exponent decreases from 2.5 to 1.5 at x=0.5.",
+  "license": "BSD-3-Clause, copyright 2026 Luigi C. Berselli and Alex Kaltenbach; full notice in smart-fluids-LICENSE.txt",
+  "svg_dimensions_pt": [
+    478,
+    381.467
+  ],
+  "assets": [
+    "smart-fluids-profile.svg",
+    "smart-fluids-profile.png"
+  ]
+}

@@ -1,0 +1,15 @@
+QH-GEM compact homepage figure
+
+Source: https://github.com/alexkaltenbach/qh-gem-matlab
+Commit: 117aa2ee2ea396aec22eaca6df6ae14d9b456376
+Data: reference_data/figure4_reference.mat
+SHA256: e83b5bbeed28a0985196853d70eaca5057a02db25dd634b86a04db0a05a9cd88
+Paper: https://arxiv.org/abs/2608.27216
+
+Initial and final snapshots (t=0 and t=0.3) and target density on shared axes.
+Unchanged numerical data: no interpolation, smoothing or renormalisation.
+No new simulation or optimisation was run; no certified-optimality claim.
+Authors: Harbir Antil, Alex Kaltenbach, Sarswati Shah.
+BSD-3-Clause: see qhgem-LICENSE.txt.
+
+Standalone SVG display width: 1080 px. Original viewBox and artwork are unchanged.

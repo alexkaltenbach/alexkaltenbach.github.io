@@ -1,0 +1,47 @@
+SOURCE AND ATTRIBUTION
+
+Sören Bartels, Thirupathi Gudi, Alex Kaltenbach:
+A priori and a posteriori error identities for the scalar Signorini problem.
+
+Public author manuscript: https://arxiv.org/abs/2407.10912v1
+PDF: https://arxiv.org/pdf/2407.10912v1
+Author-uploaded TeX source: https://arxiv.org/src/2407.10912
+Published article: https://doi.org/10.1137/24M1677691
+SIAM Journal on Numerical Analysis 63(5), 2155–2186 (2025).
+
+FIGURE
+Figure 4 (right), page 23 of the public arXiv manuscript, Section 7.3.1.
+The original figure is images/aposteriori_rates.pdf in the arXiv source archive.
+The SVG and PNG are faithful exports of this figure; no data, labels, curves,
+markers, colors or legend entries were changed. SVG text is outlined to keep
+all mathematical notation portable. The SVG adds accessibility title/description.
+The downloaded source PDF has a cropped page box; off-page material is not shown.
+
+WHAT IT SHOWS
+For a scalar Signorini problem with unknown exact solution on (-1,1)^2 and
+mixed boundary conditions, the squared primal-dual gap estimator is compared
+against the number of degrees of freedom. Blue circles: adaptive refinement
+(theta=1/2, 21 levels). Green squares: uniform refinement (theta=1, 5 levels).
+The displayed reference slopes are N^(-1) for adaptive and N^(-2/3) for uniform
+refinement. This is an estimator plot, not a measured exact-error norm.
+
+SUGGESTED CAPTION
+Refinement guided by the primal-dual gap yields faster decay of the squared
+gap estimator than uniform refinement for this scalar Signorini problem.
+Figure 4 in joint work with Sören Bartels and Thirupathi Gudi.
+
+ALT TEXT
+Log-log comparison of the squared primal-dual gap estimator against degrees
+of freedom for the scalar Signorini problem. Blue circles show adaptive
+refinement with reference rate N to the power minus one; green squares show
+uniform refinement with reference rate N to the power minus two thirds.
+
+RIGHTS NOTE
+arXiv lists its non-exclusive distribution license for this manuscript:
+https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html
+This is not a Creative Commons license. The figure is provided for the
+coauthor's own requested homepage update with full attribution; no broader
+third-party reuse license is asserted. Use this author-manuscript artwork,
+not a scan of the publisher's formatted article.
+
+Standalone SVG display width: 1080 px. Original viewBox and artwork are unchanged.
