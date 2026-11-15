@@ -1,7 +1,0 @@
-{% assign p = include.pub %}
-<span class="pub-links">
-{% if p.doi %}<a class="pub-link" href="https://doi.org/{{ p.doi }}" aria-label="DOI for {{ p.title | escape }}">DOI</a>{% endif %}
-{% if p.arxiv_url %}<a class="pub-link" href="{{ p.arxiv_url }}" aria-label="arXiv version of {{ p.title | escape }}">arXiv</a>{% elsif p.paperurl and p.doi == nil %}<a class="pub-link" href="{{ p.paperurl }}" aria-label="Read {{ p.title | escape }}">Read paper</a>{% endif %}
-{% if p.code_url %}<a class="pub-link" href="{{ p.code_url }}" aria-label="Code for {{ p.title | escape }}">Code</a>{% endif %}
-{% if p.pdf_url %}<a class="pub-link" href="{{ p.pdf_url | relative_url }}">PDF</a>{% endif %}
-</span>

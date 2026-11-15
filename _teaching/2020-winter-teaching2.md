@@ -1,12 +1,10 @@
 ---
 title: "Seminar: Instationäre Probleme/Seminar: instationary problems"
-display_title: "Seminar: Evolution problems"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2020-winter-teaching2
 venue: "University of Freiburg, Department of Applied Mathematics"
 date: 2020-10-01
 location: "Freiburg, Germany"
-term: "Winter 2020/21"
 role: "assistance"
 ---

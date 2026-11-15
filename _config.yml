@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Alex Kaltenbach"
 title_separator          : "-"
 name                     : &name "Alex Kaltenbach"
-description              : &description "Alex Kaltenbach — numerical analysis of nonlinear PDEs, convex duality, error control and non-Newtonian fluids."
+description              : &description "personal description"
 url                      : https://alexkaltenbach.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "alexkaltenbach/alexkaltenbach.github.io"
@@ -62,16 +62,13 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "profile.jpg" # Open Graph/Twitter default site image
+og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links:
-    - "https://orcid.org/0000-0001-6478-7963"
-    - "https://scholar.google.com/citations?user=hEYc25gAAAAJ"
-    - "https://github.com/alexkaltenbach"
+  links: # An array of links to social media profiles
 
 
 # Analytics
@@ -99,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "alexkaltenbach"
+  github           : #"https://github.com/alexkaltenbach"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : #"https://de.linkedin.com/in/alex-kaltenbach-6646911bb"
-  orcid            : "https://orcid.org/0000-0001-6478-7963"
+  orcid            : "http://orcid.org/0000-0001-6478-7963"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -126,27 +123,6 @@ include:
   - _pages
   - files
 exclude:
-  - markdown_generator
-  - talkmap
-  - talkmap.ipynb
-  - CONTRIBUTING.md
-  - README.md
-  - Gemfile.lock
-  - package-lock.json
-  - scripts
-  - docs
-  - requirements-dev.txt
-  - images/research/SOURCE.txt
-  - _pages/category-archive.html
-  - _pages/year-archive.html
-  - _pages/archive-layout-with-content.md
-  - _pages/markdown.md
-  - _pages/collection-archive.html
-  - _pages/tag-archive.html
-  - _pages/non-menu-page.md
-  - _pages/talkmap.html
-  - _pages/page-archive.html
-  - _pages/terms.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -279,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Europe/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

@@ -1,13 +1,25 @@
+# main links links
 main:
-  - title: "Research"
-    url: /research/
   - title: "Publications"
     url: /publications/
-  - title: "Projects & funding"
+
+  - title: "Third-Party Funding"
     url: /third-party-funding/
-  - title: "Teaching"
-    url: /teaching/
+
   - title: "Talks"
-    url: /talks/
-  - title: "CV"
+    url: /talks/    
+
+  - title: "Teaching"
+    url: /teaching/    
+
+  #- title: "Portfolio"
+  #  url: /portfolio/
+        
+  #- title: "Blog Posts"
+  #  url: /year-archive/
+    
+  - title: "Curriculum Vitae"
     url: /cv/
+    
+  #- title: "Guide"
+  #  url: /markdown/
