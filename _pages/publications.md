@@ -11,7 +11,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 {% include base_path %}
 
-**Publication list (PDF):** [Link to PDF](/files/PubList.pdf)
+**Publication list (PDF):** [Link to PDF](/files/PubList.pdf) · [Download BibTeX]({{ "/files/publications.bib" | relative_url }})
 
 ---
 
@@ -25,7 +25,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
       <span class="pub-title">{{ pub.title }}
       </span>
       <div class="pub-meta">
-        {% if pub.authors %}{{ pub.authors }}. {% endif %}
+        {% if pub.authors %}<span class="pub-authors">{{ pub.authors }}</span> · {% endif %}
         {% if pub.venue %}<em>{{ pub.venue }}</em>{% endif %}
         {% if pub.date %} · {{ pub.date | date: "%B %Y" }}{% endif %}
         {% if pub.paperurl %}
@@ -34,6 +34,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
         {% if pub.code_url %}
           · <a class="pub-link" href="{{ pub.code_url }}" aria-label="Code for {{ pub.title | escape }}">Code</a>
         {% endif %}
+        {% include publication-bibtex.html pub=pub %}
       </div>
     </li>
   {% endif %}
@@ -54,6 +55,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
         {% if pub.code_url %}
           · <a class="pub-link" href="{{ pub.code_url }}" aria-label="Code for {{ pub.title | escape }}">Code</a>
         {% endif %}
+        {% include publication-bibtex.html pub=pub %}
       </div>
     </li>
   {% endif %}
@@ -69,11 +71,12 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
       <div class="pub-citation">
       {{ pub.citation }}
         {% if pub.paperurl %}
-        · <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
+        · <a class="pub-link" href="{{ pub.paperurl }}">{{ pub.link_label | default: "DOI" }}</a>
         {% endif %}
         {% if pub.code_url %}
           · <a class="pub-link" href="{{ pub.code_url }}" aria-label="Code for {{ pub.title | escape }}">Code</a>
         {% endif %}
+        {% include publication-bibtex.html pub=pub %}
       </div>
     </li>
   {% endif %}
@@ -102,6 +105,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
         {% if pub.paperurl %}
           <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
         {% endif %}
+        {% include publication-bibtex.html pub=pub %}
       </div>
     </li>
   {% endif %}
@@ -128,6 +132,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
         {% if pub.paperurl %}
           <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
         {% endif %}
+        {% include publication-bibtex.html pub=pub %}
       </div>
     </li>
   {% endif %}
@@ -154,6 +159,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
         {% if pub.paperurl %}
           <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
         {% endif %}
+        {% include publication-bibtex.html pub=pub %}
       </div>
     </li>
   {% endif %}
@@ -165,6 +171,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
     </div>
     <div class="pub-links">
       <a class="pub-link" href="{{ '/files/Kaltenbach_Masterarbeit_2019.pdf' | relative_url }}">PDF · korrigierte Version</a>
+      {% include publication-bibtex.html key="master-thesis-2019" %}
     </div>
   </li>
   <li class="pub-item">
@@ -174,6 +181,9 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
     </div>
     <div class="pub-links">
       <a class="pub-link" href="{{ '/files/Kaltenbach_Bachelorarbeit_2017.pdf' | relative_url }}">PDF · korrigierte Version</a>
+      {% include publication-bibtex.html key="bachelor-thesis-2017" %}
     </div>
   </li>
 </ul>
+
+<script src="{{ "/assets/js/bibtex-copy.js" | relative_url }}" defer></script>

@@ -1,0 +1,7 @@
+{% if include.talk.slides %}
+<div class="talk-materials">
+  {% for slide in include.talk.slides %}
+    <a href="{{ slide.url | relative_url }}">{{ slide.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> · </span>{% endunless %}
+  {% endfor %}
+</div>
+{% endif %}

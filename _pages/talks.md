@@ -26,6 +26,7 @@ author_profile: true
         {% if t.location %}<span> · {{ t.location }}</span>{% endif %}
         {% if t.date %}<span class="talk-date"> · {{ t.date | date: "%B %Y" }}</span>{% endif %}
       </div>
+      {% include talk-slides.html talk=t %}
     </li>
   {% endif %}
 {% endfor %}
@@ -50,6 +51,7 @@ author_profile: true
       {% if t.location %}<span> · {{ t.location }}</span>{% endif %}
       {% if t.date %}<span class="talk-date"> · {{ t.date | date: "%B %Y" }}</span>{% endif %}
     </div>
+    {% include talk-slides.html talk=t %}
   </li>
 {% endfor %}
 </ul>

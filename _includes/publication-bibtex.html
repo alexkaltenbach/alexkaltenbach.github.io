@@ -1,0 +1,16 @@
+{% if include.key %}
+  {% assign bib_key = include.key %}
+{% else %}
+  {% assign bib_key = include.pub.path | split: '/' | last | remove: '.md' %}
+{% endif %}
+{% assign bib_entry = site.data.publication_bibtex[bib_key] %}
+{% if bib_entry %}
+<details class="pub-bibtex">
+  <summary aria-label="BibTeX for {{ bib_entry.title | escape }}">BibTeX</summary>
+  <div class="pub-bibtex__body">
+    <pre tabindex="0" aria-label="BibTeX citation"><code>{{ bib_entry.bibtex | escape }}</code></pre>
+    <button class="pub-bibtex__copy" type="button" hidden>Copy BibTeX</button>
+    <span class="pub-bibtex__status" role="status" aria-live="polite"></span>
+  </div>
+</details>
+{% endif %}

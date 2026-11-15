@@ -16,7 +16,7 @@ author_profile: true
 - [Differential Equations II/B](/files/skript_dgl2b.pdf)
 - [Differential Equations III](/files/skript_dgl3.pdf)
 
-## Supervisions
+## Courses taught
 
 <ul class="teaching-list">
 {% assign teachings = site.teaching | sort: "date" | reverse %}
@@ -29,7 +29,7 @@ author_profile: true
       <div class="teaching-meta">
         {% if t.venue %}{{ t.venue }}{% endif %}
         {% if t.location %}{% if t.venue %} · {% endif %}{{ t.location }}{% endif %}
-        {% if t.date %} · {{ t.date | date: "%Y" }}{% endif %}
+        {% if t.date %} · {% include teaching-semester.html date=t.date %}{% endif %}
       </div>
     </li>
   {% endif %}
@@ -48,7 +48,7 @@ author_profile: true
       <div class="teaching-meta">
         {% if t.venue %}{{ t.venue }}{% endif %}
         {% if t.location %}{% if t.venue %} · {% endif %}{{ t.location }}{% endif %}
-        {% if t.date %} · {{ t.date | date: "%Y" }}{% endif %}
+        {% if t.date %} · {% include teaching-semester.html date=t.date %}{% endif %}
       </div>
     </li>
   {% endif %}

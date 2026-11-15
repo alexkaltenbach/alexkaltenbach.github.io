@@ -1,0 +1,12 @@
+{%- assign term_year = include.date | date: '%Y' | plus: 0 -%}
+{%- assign term_month = include.date | date: '%m' | plus: 0 -%}
+{%- if term_month >= 10 -%}
+  {%- assign next_year = term_year | plus: 1 | append: '' | slice: -2, 2 -%}
+  Winter semester {{ term_year }}/{{ next_year }}
+{%- elsif term_month <= 3 -%}
+  {%- assign previous_year = term_year | minus: 1 -%}
+  {%- assign short_year = term_year | append: '' | slice: -2, 2 -%}
+  Winter semester {{ previous_year }}/{{ short_year }}
+{%- else -%}
+  Summer semester {{ term_year }}
+{%- endif -%}
