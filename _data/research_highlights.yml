@@ -1,9 +1,9 @@
 duality:
   title: Adaptive refinement guided by duality
   image: /images/research/signorini-adaptive-gap.svg
-  width: 419
-  height: 344
-  alt: "Log-log plot of the squared primal-dual gap estimator against degrees of freedom. Adaptive refinement (blue circles) decreases faster than uniform refinement (green squares)."
+  width: 1080
+  height: 720
+  alt: "Log-log plot of the squared primal-dual gap estimator against degrees of freedom. Adaptive refinement (blue circles) decreases faster than uniform refinement (orange squares)."
   caption: "In this scalar Signorini example, adaptive refinement reduces the squared primal–dual gap estimator faster than uniform refinement for a comparable number of degrees of freedom."
   source_label: "Signorini example · Figure 4"
   source_url: https://arxiv.org/abs/2407.10912
@@ -25,11 +25,11 @@ duality:
       url: https://arxiv.org/abs/2606.25948
 fluids:
   title: Resolving a variable-exponent flow profile
-  image: /images/research/smart-fluids-profile.png
-  width: 800
-  height: 639
-  alt: "Exact and computed asymmetric velocity profiles for a stationary benchmark. Dashed finite element profiles approach the solid exact curve under refinement; red lines show the discontinuous exponent and a purple line the prescribed flux."
-  caption: "In this stationary benchmark from the pulsatile-flow study, finite element profiles approach an exact asymmetric solution. The red steps show the discontinuous exponent; the purple line marks the prescribed flux."
+  image: /images/research/smart-fluids-profile.svg
+  width: 1144
+  height: 748
+  alt: "A material band shows the exponent changing from 2.5 to 1.5 at x=0.5. Below it, the exact asymmetric velocity profile is compared with numerical profiles on 4 and 32 spatial cells, using coupled space-time refinement."
+  caption: "A jump in the material exponent produces an asymmetric velocity profile. Two levels of space–time refinement are compared with the exact stationary benchmark from the pulsatile-flow study."
   source_label: "Pulsatile-flow study · Figure 9, left"
   source_url: https://github.com/alexkaltenbach/pulsatile-smart-fluids-code/blob/b3d4d4e3d68c2145e46490d5e47a07b1ccda16db/pLaplaceMixed/plots/Figure9.pdf
   papers:
@@ -45,13 +45,34 @@ fluids:
       year: 2025
       url: https://doi.org/10.1007/s00211-025-01450-1
 insulation:
+  title: Temperature and optimal insulation
+  image: /images/research/insulation-temperature-coating.svg
+  width: 1080
+  height: 720
+  alt: "The exact temperature field in a square is shown in blue. An orange band represents the optimal insulation allocation, with central parts of the top and bottom edges uncoated. The displayed coating width is schematic."
+  caption: "Exact temperature and optimal insulation in a manufactured benchmark. The orange band shows the allocation of a fixed amount of material; central parts of the top and bottom edges remain uncoated. The coating width is shown schematically."
+  source_label: "Insulation benchmark · Section 7.1"
+  source_url: https://arxiv.org/abs/2606.14991
   papers:
     - title: Convection effects and optimal insulation
       authors: A. Kaltenbach, H. Antil, K. L. A. Kirk
       venue: ESAIM Control Optim. Calc. Var.
       year: 2026
       url: https://doi.org/10.1051/cocv/2026064
+    - title: Finite element approximation with convective heat transfer
+      authors: H. Antil, A. Kaltenbach, K. L. A. Kirk
+      venue: Preprint
+      year: 2026
+      url: https://arxiv.org/abs/2606.14991
 neural:
+  title: A family of PDE solutions
+  image: /images/research/neural-parametric-map.svg
+  width: 1144
+  height: 748
+  alt: "A blue-orange heatmap of the exact solution u(mu,x), with position x horizontally and forcing parameter mu vertically. The oscillatory solution changes across the parameter interval from 0 to 6."
+  caption: "Deep Ritz networks approximate a solution jointly in space and parameter. This graphic shows the exact reference family for the variable-forcing benchmark in our study."
+  source_label: "Deep Ritz study · Section 8.1"
+  source_url: https://doi.org/10.1186/s13662-025-04043-2
   papers:
     - title: The Deep Ritz method for parametric p-Dirichlet problems
       authors: A. Kaltenbach, M. Zeinhofer
@@ -59,13 +80,13 @@ neural:
       year: 2026
       url: https://doi.org/10.1186/s13662-025-04043-2
 qhgem:
-  title: From a Gaussian to a bimodal density
-  image: /images/research/qhgem-density-transport.svg
-  width: 450
-  height: 365
-  alt: "The initial density is a single Gaussian peak. The computed final density has two peaks and closely follows the dashed orange target, with small remaining differences."
-  caption: "An identified initial phase steers a Gaussian density towards a bimodal target through quantum-hydrodynamic dynamics. The final computed density closely follows the target, with a small remaining mismatch."
-  source_label: "QH-GEM · Figure 4 reference data"
+  title: "From one peak to two: density generation"
+  image: /images/research/qhgem-density-3d.png
+  width: 1080
+  height: 720
+  alt: "Two three-dimensional surface plots show the initial Gaussian density at t=0 and the computed two-peak density at t=0.3, using identical spatial and density scales."
+  caption: "An identified initial phase steers a Gaussian density towards a bimodal target through quantum-hydrodynamic dynamics. The surfaces show the initial and computed final states of a two-dimensional example on the same scale."
+  source_label: "QH-GEM · Figure 5 reference data"
   source_url: https://github.com/alexkaltenbach/qh-gem-matlab/tree/117aa2ee2ea396aec22eaca6df6ae14d9b456376/reference_data
   papers:
     - title: "QH-GEM: Quantum-Hydrodynamic Generative Modeling"

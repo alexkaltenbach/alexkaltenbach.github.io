@@ -1,0 +1,50 @@
+SMART-FLUID BENCHMARK — NEW WEB VISUAL
+
+Use smart-fluids-profile-new.svg for the website. The PNG is a high-resolution
+preview. The two panels share the same horizontal coordinates.
+
+The upper band identifies p(x)=2.5 for -1<=x<=0.5 and p(x)=1.5 for 0.5<x<=1.
+The lower panel shows the exact stationary velocity profile and actual finite
+element approximations on 4 and 32 cells. The original experiment refines
+space and time together: 4 and 32 time steps, respectively. Curves are
+final-time values. This is a stationary benchmark in
+the public pulsatile-flow article, not an observed physical flow or a new
+time-dependent numerical experiment.
+
+Numerical profiles are extracted from PDF vector paths in the author's
+Figure 9, left panel. No values have been invented, fitted to a convergence
+rate, or produced by a new solver run. PDF display coordinates have finite
+precision: they are suitable for faithful visualization, not for new
+quantitative error estimates. Axis-calibration residuals are below 3.8e-8 in
+data coordinates; the recomputed published exact formula agrees with the
+original exact-curve path to 1.42e-7 at its vertices.
+
+The original nine approximation curves are reduced to two representative
+levels. The flux line is omitted to keep the comparison legible. Styles,
+layout and explanatory labels are new; the numerical curve values are kept.
+
+CAPTION
+A discontinuous material exponent produces an asymmetric velocity profile.
+The finite element approximations on 4 and 32 cells are compared with the
+exact stationary benchmark.
+
+CREDIT
+Joint work with Luigi C. Berselli.
+
+SOURCE
+Luigi C. Berselli and Alex Kaltenbach,
+Pulsatile Flows for Simplified Smart Fluids with Variable Exponent Power-Law:
+Analysis and Numerics.
+https://doi.org/10.1142/S0218202527500023
+https://github.com/alexkaltenbach/pulsatile-smart-fluids-code
+Commit b3d4d4e3d68c2145e46490d5e47a07b1ccda16db
+pLaplaceMixed/plots/Figure9.pdf (left panel)
+Public software archive: https://doi.org/10.5281/zenodo.21179010
+Full license notice: LICENSE.txt
+
+REPRODUCE
+python plot_profile.py
+This reads the four supplied CSV files and only requires NumPy/Matplotlib.
+To repeat the optional extraction from the exact archived source PDF:
+python extract_vector_data.py /path/to/Figure9.pdf
+The extractor requires PyMuPDF, NumPy and SciPy, and verifies the PDF hash.

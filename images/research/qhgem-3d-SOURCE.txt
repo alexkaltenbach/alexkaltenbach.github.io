@@ -1,0 +1,29 @@
+QH-GEM — NEW 3D DENSITY VISUAL
+
+Harbir Antil, Alex Kaltenbach, Sarswati Shah:
+QH-GEM: Quantum-Hydrodynamic Generative Modeling.
+https://arxiv.org/abs/2608.27216
+https://github.com/alexkaltenbach/qh-gem-matlab
+Commit 117aa2ee2ea396aec22eaca6df6ae14d9b456376
+Data: reference_data/figure5_reference.mat
+Metadata: reference_data/figure5_reference.json
+License: BSD 3-Clause; see LICENSE.txt.
+
+The plots use the original rho0 and rhoT arrays (91 x 91) at t=0 and t=0.3.
+Array orientation follows the original Figure 5 plotting script (row y,
+column x, no transpose). Both views use the same density scale, orthographic
+camera, color scale (shared gamma 0.45) and spatial extent [-12,12] x [-12,12]. This is a central
+view of the original domain (approximately [-15.824,15.824]^2). Heights are
+unmodified; the surface connects the actual saved grid values. No smoothing,
+new time evolution, independent normalization or fitted data was introduced.
+All displayed grid values are retained. The website uses a 1080 x 720 PNG;
+a vector export and portable code are included with the update package.
+
+The archived state is a computed approximation, not a certified local
+minimum or an optimization-convergence result. The target is not plotted.
+The numerical full-grid L2 difference from the target is 0.02164511618150967,
+matching the archived value 0.02164511618150966. Initial and final mass are
+1.0000000000000036 and 0.999999999999949, respectively. See validation.json.
+
+Reproduce: python render_density.py
+Required: NumPy, SciPy, Matplotlib. All paths are relative to this script.

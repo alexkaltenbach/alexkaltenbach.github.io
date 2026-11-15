@@ -72,6 +72,7 @@ redirect_from:
 * SIAM Journal on Scientific Computing
 * Computers & Mathematics with Applications
 * Advances in Computational Mathematics
+* Journal of Applied Mathematics and Computing
 
 ## Awards
 

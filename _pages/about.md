@@ -40,11 +40,11 @@ Further directions complement this programme:
 
 - **Optimal thermal insulation.** I study the optimal distribution of a prescribed amount of insulating material around heat-conducting bodies, accounting for their geometry and convective heat exchange with the surroundings. My work combines variational analysis with finite element approximation and iterative optimisation methods.
 
-  <div class="research-topic-materials">{% capture research_material %}{% include research-publications.html topic="insulation" %}{% endcapture %}{{ research_material | strip_newlines }}</div>
+  <div class="research-topic-materials">{% capture research_material %}{% include research-example.html topic="insulation" %}{% endcapture %}{{ research_material | strip_newlines }}</div>
 
 - **Neural approximation of parametric PDEs.** I study neural approximations of parameter-to-solution maps and their mathematical error analysis. Building on best-approximation results and *a priori* estimates for the Deep Ritz method, current work combines variational energies with physics-informed residuals for parametric *p*-Stokes systems, including parameter-dependent material laws, forcing, and geometries.
 
-  <div class="research-topic-materials">{% capture research_material %}{% include research-publications.html topic="neural" %}{% endcapture %}{{ research_material | strip_newlines }}</div>
+  <div class="research-topic-materials">{% capture research_material %}{% include research-example.html topic="neural" %}{% endcapture %}{{ research_material | strip_newlines }}</div>
 
 - **Quantum-hydrodynamic generative modelling.** I develop PDE-based generative methods using Schrödinger dynamics and their Madelung formulation. PDE-constrained optimisation determines an initial phase so that the resulting deterministic dynamics transport a reference distribution towards a prescribed target. Current research addresses scalable phase identification, structure-preserving discretisations, and error control.
 

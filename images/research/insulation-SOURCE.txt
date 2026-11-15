@@ -1,0 +1,62 @@
+OPTIMAL INSULATION: NEW EXACT-BENCHMARK VISUALISATION
+
+Research source
+Harbir Antil, Alex Kaltenbach, Keegan L. A. Kirk:
+A Finite Element Approximation of an Optimal Insulation Problem with
+Convective Heat Transfer.
+https://arxiv.org/abs/2606.14991v1
+Section 7.1, manufactured test case; Figure 2 displays FE approximations
+of the same benchmark. This newly drawn graphic instead evaluates its
+published exact formulas. No PDE solver was run and no FE result is claimed.
+
+The underlying model is also discussed in:
+Convection Effects and Optimal Insulation: Modelling and Analysis.
+https://doi.org/10.1051/cocv/2026064
+https://arxiv.org/abs/2512.13098
+
+Content
+Blue shading shows the exact manufactured temperature in the unit square.
+White contours are levels 0.75, 1.5, 2.25, 3.0 of that same exact function.
+Orange width on each flat edge is proportional to the exact optimal
+normal allocation. The top and bottom edges are uncoated on
+[0.3765,0.6184]; the vertical sides are coated throughout.
+The exterior width and rounded corner joins are explicitly schematic,
+as indicated inside the image. No finite-thickness optimum is claimed.
+
+Validation
+The exact boundary integral used for normalization is
+I=0.39763866666666664; omega=m*beta/I=15.089075844401451.
+The analytic mass equals m=4. Independent 100001-point trapezoidal
+integration on each side returns 4.0 to floating-point accuracy.
+Temperature range on the rendering grid: 0.375 to 3.142967813251474.
+Maximum optimal normal allocation: 1.8358375610688433.
+FORMULAS.txt records the complete benchmark and exact normalization.
+
+Suggested caption
+An exact benchmark couples the temperature field with the optimal
+allocation of a fixed insulation budget. Central portions of the top
+and bottom edges remain uncoated; coating width is shown schematically.
+Joint work with Harbir Antil and Keegan L. A. Kirk.
+
+Suggested alt text
+Blue temperature map inside a square with orange insulation along its
+boundary. The optimal allocation is greatest along the vertical sides
+and vanishes on a central interval of the top and bottom edges.
+The exterior band width is schematic.
+
+Minimal reproduction files
+render_insulation.py
+benchmark-parameters.json
+FORMULAS.txt
+SOURCE.txt
+Optional sampled data: insulation-boundary.csv (404 boundary samples).
+Outputs: insulation-temperature-coating.svg and .png.
+Dependencies: Python, NumPy, Matplotlib. All paths are relative.
+No source PDF, arXiv archive or unpublished research data is needed to
+reproduce the graphic.
+
+Rights/provenance
+This is a newly generated visualization of publicly stated mathematical
+formulas, with complete scientific attribution, made for the coauthor's
+requested homepage. It does not reproduce publisher artwork or assert
+a Creative Commons license for the source paper.

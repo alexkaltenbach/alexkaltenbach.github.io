@@ -1,0 +1,34 @@
+NEURAL APPROXIMATION OF PARAMETRIC PDES — EXACT REFERENCE VISUAL
+
+Use neural-parametric-map.svg on the website; PNG is a fallback.
+The heatmap is a new rendering of the exact family in Section 8.1 of:
+Alex Kaltenbach and Marius Zeinhofer,
+The Deep Ritz Method for parametric p-Dirichlet problems,
+Advances in Continuous and Discrete Models 2026, article 8.
+https://doi.org/10.1186/s13662-025-04043-2
+
+Formula:
+u(mu,x) = (sin(mu*pi*x) - sin(mu*pi)*x) / pi**2
+for x in (-1,1), mu in (0,6). The closed boundary is displayed by continuity.
+This solves -u_xx = mu**2*sin(mu*pi*x), with zero endpoint values.
+The parameter mu is the forcing parameter, not a neural-network weight.
+
+The visual shows the analytical benchmark. It does not show newly trained
+network predictions or reproduce the paper's numerical errors. The article
+reports no public numerical code. No training or solver is needed to redraw it.
+
+Reproduce with Python 3, NumPy and Matplotlib:
+  python plot_neural_family.py
+The script exports only the chosen SVG and PNG and prints validation results.
+The formula and sampling settings replace any need for a large data archive.
+Exact settings and proposed caption/alternative text are in provenance.json.
+
+Attribution and changes:
+Joint work with Marius Zeinhofer. Exact benchmark from Section 8.1, redrawn.
+Source article: Creative Commons Attribution 4.0 International.
+https://creativecommons.org/licenses/by/4.0/
+New color map, layout, and labels; the published formula is unchanged.
+
+Minimal package: the SVG, PNG, this file, provenance.json, and
+plot_neural_family.py. No original paper PDF, trained weights, data archive,
+or exploratory surface plot is required.
