@@ -1,0 +1,15 @@
+QH-GEM homepage figure
+
+Source: https://github.com/alexkaltenbach/qh-gem-matlab
+Commit: 117aa2ee2ea396aec22eaca6df6ae14d9b456376
+Data: reference_data/figure4_reference.mat
+SHA256: e83b5bbeed28a0985196853d70eaca5057a02db25dd634b86a04db0a05a9cd88
+Paper: https://arxiv.org/abs/2608.27216
+
+Snapshots 1, 3 and 5 (t = 0, 0.15, 0.3). Shared axes in every panel.
+Data are plotted without smoothing, interpolation or renormalisation.
+These are archived computed approximations; no new optimisation was run.
+No claim of certified optimality or exact target matching is made.
+
+Data authors: Harbir Antil, Alex Kaltenbach and Sarswati Shah.
+See qhgem-LICENSE.txt for the BSD 3-Clause licence.

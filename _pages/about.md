@@ -30,14 +30,38 @@ Two closely connected areas form the core of my work:
 
 - **Duality-based numerical methods.** I use continuous and discrete convex duality to derive primal-dual error identities for *a priori* and *a posteriori* analysis, adaptive refinement, and error control for iterative solvers. My work includes explicit flux reconstructions and solvers based on semi-implicit gradient flows and prox-based semismooth Newton methods. Applications include obstacle and Signorini problems, TV minimisation, and digital twins for structural health monitoring. Current directions include subgradient flows, higher-order discretisations, PDE-constrained optimisation, and learning-enhanced iterative solvers.
 
+  <div class="research-resource-links">
+    <a href="https://doi.org/10.1016/bs.aams.2024.04.001">Review: exact error control</a>
+  </div>
+
 - **Analysis and numerics of non-Newtonian and smart fluids.** I develop existence theory for nonlinear flow models and establish convergence and error estimates for finite element and discontinuous Galerkin approximations. My work includes variable-exponent and micropolar fluids, evolution equations in time-dependent energy spaces, and generalised pseudomonotonicity methods. Current research addresses fully coupled smart-fluid systems, particularly chemically reacting fluids and models of synovial lubrication.
+
+  <div class="research-resource-links">
+    <a href="https://doi.org/10.1142/S0218202527500023">Paper: pulsatile smart fluids</a>
+    <a href="https://github.com/alexkaltenbach/pulsatile-smart-fluids-code">Numerical code</a>
+  </div>
 
 Further directions complement this programme:
 
 - **Optimal thermal insulation.** I study the optimal distribution of a prescribed amount of insulating material around heat-conducting bodies, accounting for their geometry and convective heat exchange with the surroundings. My work combines variational analysis with finite element approximation and iterative optimisation methods.
 
+  <div class="research-resource-links">
+    <a href="https://doi.org/10.1051/cocv/2026064">Paper: convection and insulation</a>
+  </div>
+
 - **Neural approximation of parametric PDEs.** I study neural approximations of parameter-to-solution maps and their mathematical error analysis. Building on best-approximation results and *a priori* estimates for the Deep Ritz method, current work combines variational energies with physics-informed residuals for parametric *p*-Stokes systems, including parameter-dependent material laws, forcing, and geometries.
+
+  <div class="research-resource-links">
+    <a href="https://doi.org/10.1186/s13662-025-04043-2">Paper: error analysis for Deep Ritz</a>
+  </div>
 
 - **Quantum-hydrodynamic generative modelling.** I develop PDE-based generative methods using Schrödinger dynamics and their Madelung formulation. PDE-constrained optimisation determines an initial phase so that the resulting deterministic dynamics transport a reference distribution towards a prescribed target. Current research addresses scalable phase identification, structure-preserving discretisations, and error control.
 
+  <div class="research-resource-links">
+    <a href="https://arxiv.org/abs/2608.27216">Preprint: QH-GEM</a>
+    <a href="https://github.com/alexkaltenbach/qh-gem-matlab">MATLAB code &amp; data</a>
+  </div>
+
 From 2027, I will serve as scientific co-lead of two [funded research projects](/third-party-funding/) on learning-enhanced iterative methods (DFG–NSFC) and duality-based error control for digital twins (MATH+).
+
+{% include research-example.html %}
