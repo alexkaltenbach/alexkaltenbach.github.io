@@ -65,16 +65,20 @@ fluids:
   extra_links:
   - label: Velocity benchmark
     url: /images/research/smart-fluids-profile.svg
+  wide: true
+  mobile_image: /images/research/smart-fluid-pipe-scene-mobile.svg
+  mobile_width: 1080
+  mobile_height: 360
 insulation:
   title: Insulating a re-entry capsule
   image: /images/research/insulation-capsule.svg
-  width: 1080
-  height: 720
-  alt: Two computed insulation allocations on the same idealized re-entry capsule. With normalized budgets of 0.1 and 2.5,
-    9 percent and 71 percent of the hull are insulated, respectively. Gray areas remain uninsulated; the original purple-to-yellow
-    color scale indicates the allocation in the transversal direction.
-  caption: Qualitative finite element example on an idealized re-entry capsule. Increasing the insulation budget expands coverage
-    from 9% to 71% of the hull.
+  width: 1200
+  height: 370
+  alt: Four original computed insulation allocations on an idealized re-entry capsule. Normalized material budgets 0.1, 1,
+    1.5 and 2.5 yield 9, 22, 43 and 71 percent insulated hull. Gray denotes uninsulated surface; the original purple-to-yellow
+    scale indicates allocation in the transversal direction.
+  caption: Qualitative finite element example on an idealized re-entry capsule. Four material budgets show how the optimal
+    insulation expands from 9% to 71% of the hull.
   source_label: Re-entry example · Section 7.2
   source_url: https://arxiv.org/abs/2606.14991
   papers:
@@ -91,6 +95,10 @@ insulation:
   extra_links:
   - label: Temperature benchmark
     url: /images/research/insulation-temperature-coating.svg
+  wide: true
+  mobile_image: /images/research/insulation-capsule-mobile.svg
+  mobile_width: 500
+  mobile_height: 620
 neural:
   title: Families of PDE solutions
   image: /images/research/parametric-families.svg
