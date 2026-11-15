@@ -1,0 +1,45 @@
+QH-GEM — FOUR ORIGINAL TIME SNAPSHOTS AND TARGET
+
+Harbir Antil, Alex Kaltenbach, Sarswati Shah:
+QH-GEM: Quantum-Hydrodynamic Generative Modeling, Figure 5.
+https://arxiv.org/abs/2608.27216
+https://github.com/alexkaltenbach/qh-gem-matlab
+Commit 117aa2ee2ea396aec22eaca6df6ae14d9b456376
+Data: reference_data/figure5_reference.mat
+Metadata: reference_data/figure5_reference.json
+Data/code license: BSD 3-Clause; see LICENSE.txt.
+
+The first four panels use all four original rho_snapshots arrays (91 x 91),
+at t=0, T/3, 2T/3, T, where T=0.3. The separately labelled fifth panel uses
+the archived rho_target array. This matches the temporal selection and
+comparison in Figure 5 of the preprint, with surfaces instead of heatmaps.
+No time interpolation, fitted values, smoothing, new integration or
+independent normalization has been introduced. Row y / column x orientation
+is preserved. The saved t=0 snapshot includes the original solver's density
+floor; its maximum difference from rho0 is less than 4e-22.
+
+All panels use identical orthographic cameras and spatial extent [-12,12]^2,
+inside the original domain (approximately [-15.824,15.824]^2). All displayed
+grid values are retained. The shared height axis [0,0.15] contains the higher
+intermediate peaks as well as the initial, terminal and target densities.
+The original Figure 5 Parula table is used without modification, with the
+original common linear color normalization [0,0.13868966591054607].
+Typography: DejaVu Sans, including mathematical labels.
+Desktop: all five panels in one row. Mobile: four snapshots in a 2x2 grid,
+followed by the separate target. Dashed separators identify the target as
+a comparison, not an additional time step.
+
+The colormap module is CC BY-SA 4.0 (PetSven,
+https://stackoverflow.com/a/60007513; attribution retained in _parula.py).
+This license concerns the copied colormap module; the simulation data and
+other original QH-GEM code carry their BSD 3-Clause license.
+
+The final density is a computed approximation, not a certified local
+minimum or an optimization-convergence result. The full-grid L2 difference
+from the target is 0.02164511618150967, matching the archived value.
+Each archived time snapshot has unit mass to better than 1e-12.
+All validation results are recorded in validation.json.
+
+Reproduce: python render_density.py
+Required: NumPy, SciPy, Matplotlib, Pillow.
+All input paths are relative to the script.

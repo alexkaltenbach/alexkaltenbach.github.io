@@ -122,14 +122,15 @@ neural:
   mobile_width: 450
   mobile_height: 1100
 qhgem:
-  title: 'From one peak to two: density generation'
-  image: /images/research/qhgem-density-3d.png
-  width: 1080
-  height: 720
-  alt: Two three-dimensional surface plots in the original Parula colors show the initial Gaussian density at t=0 and the
-    computed two-peak density at t=T=0.3, using identical spatial, height, and linear color scales.
-  caption: An identified initial phase steers a Gaussian density towards a bimodal target through quantum-hydrodynamic dynamics.
-    The surfaces show the initial and computed final states of a two-dimensional example on the same scale.
+  title: 'From one peak to two: density evolution'
+  image: /images/research/qhgem-density-sequence.png
+  width: 2520
+  height: 680
+  alt: Five surface plots in the original Parula colors show the computed density at t=0, T/3, 2T/3 and T,
+    followed by a separately labelled target density. T equals 0.3. All panels use identical spatial,
+    height and linear color scales. A Gaussian initial density develops into two unequal peaks.
+  caption: Four snapshots show how a computed initial phase transforms a Gaussian density towards a bimodal
+    target (T = 0.3). The target is shown separately; all panels share the same spatial, height and colour scales.
   source_label: QH-GEM · Figure 5 reference data
   source_url: https://github.com/alexkaltenbach/qh-gem-matlab/tree/117aa2ee2ea396aec22eaca6df6ae14d9b456376/reference_data
   papers:
@@ -139,3 +140,7 @@ qhgem:
     year: 2026
     url: https://arxiv.org/abs/2608.27216
     code_url: https://github.com/alexkaltenbach/qh-gem-matlab
+  wide: true
+  mobile_image: /images/research/qhgem-density-sequence-mobile.png
+  mobile_width: 1120
+  mobile_height: 1640
