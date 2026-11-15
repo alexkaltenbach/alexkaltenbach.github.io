@@ -1,62 +1,52 @@
-OPTIMAL INSULATION: NEW EXACT-BENCHMARK VISUALISATION
+INSULATION: ORIGINAL PAPER PALETTES, EXACT-BENCHMARK VISUALIZATION
 
-Research source
-Harbir Antil, Alex Kaltenbach, Keegan L. A. Kirk:
+Research source: Harbir Antil, Alex Kaltenbach, Keegan L. A. Kirk,
 A Finite Element Approximation of an Optimal Insulation Problem with
-Convective Heat Transfer.
-https://arxiv.org/abs/2606.14991v1
-Section 7.1, manufactured test case; Figure 2 displays FE approximations
-of the same benchmark. This newly drawn graphic instead evaluates its
-published exact formulas. No PDE solver was run and no FE result is claimed.
+Convective Heat Transfer. https://arxiv.org/abs/2606.14991v1
+Exact formulas: Section7.1. Original visualization: Figure2,
+author-uploaded figures/test1_solution.pdf.
 
-The underlying model is also discussed in:
-Convection Effects and Optimal Insulation: Modelling and Analysis.
-https://doi.org/10.1051/cocv/2026064
-https://arxiv.org/abs/2512.13098
+This is a new evaluation of the published exact manufactured minimizer,
+not a newly computed FE solution. FORMULAS.txt supplies every formula and
+the exact normalization. Boundary mass is analytically4 and independently
+integrates numerically to4.0; the top/bottom uncoated interval is exactly
+[0.3765,0.6184]. No rounded orange ring remains.
 
-Content
-Blue shading shows the exact manufactured temperature in the unit square.
-White contours are levels 0.75, 1.5, 2.25, 3.0 of that same exact function.
-Orange width on each flat edge is proportional to the exact optimal
-normal allocation. The top and bottom edges are uncoated on
-[0.3765,0.6184]; the vertical sides are coated throughout.
-The exterior width and rounded corner joins are explicitly schematic,
-as indicated inside the image. No finite-thickness optimum is claimed.
+Original colors verified directly against the source PDF:
+- Temperature: Matplotlib inferno. The original PDF contour-fill RGB values
+  match the inferno lookup table with mean nearest-color difference1.7e-8.
+- Normal allocation: Matplotlib magma. Original embedded colorbar RGB values
+  match the magma lookup table within8-bit color quantization (mean nearest
+  difference approximately0.0019).
+- Normal arrows: #2c6e91, read directly from original PDF vector fills.
 
-Validation
-The exact boundary integral used for normalization is
-I=0.39763866666666664; omega=m*beta/I=15.089075844401451.
-The analytic mass equals m=4. Independent 100001-point trapezoidal
-integration on each side returns 4.0 to floating-point accuracy.
-Temperature range on the rendering grid: 0.375 to 3.142967813251474.
-Maximum optimal normal allocation: 1.8358375610688433.
-FORMULAS.txt records the complete benchmark and exact normalization.
+The left panel shows the exact temperature as a continuous inferno field
+with eight restrained white isolines; the right
+shows the exact normal allocation in magma on spatially located outward
+profiles. The fine arrows indicate normals. The outward profile offset is
+0.1*d_tilde; it is explicitly schematic and does not represent an optimized
+finite-thickness domain. The body is the unit square. Normal-direction strips
+are drawn separately as in the original figure, with no invented corner join.
 
-Suggested caption
-An exact benchmark couples the temperature field with the optimal
-allocation of a fixed insulation budget. Central portions of the top
-and bottom edges remain uncoated; coating width is shown schematically.
-Joint work with Harbir Antil and Keegan L. A. Kirk.
+STIX serif mathematical labels and compact color scales follow scientific
+publication conventions. Titles identify u and d_tilde; no generic marketing
+heading is embedded. The figure explicitly says 'Exact benchmark'.
 
-Suggested alt text
-Blue temperature map inside a square with orange insulation along its
-boundary. The optimal allocation is greatest along the vertical sides
-and vanishes on a central interval of the top and bottom edges.
-The exterior band width is schematic.
+Minimal reproduction: render_insulation.py (contains all exact formulas),
+benchmark-parameters.json, FORMULAS.txt, SOURCE.txt.
+Optional audit data: insulation-boundary.csv.
+Do not bundle downloaded PDFs, PNG source screenshot or arXiv archive.
+Dependencies: NumPy, Matplotlib, lxml. Relative paths only.
+SVG intrinsic1080×720 with viewBox0 0 432 288; PNG1080×720.
+The continuous temperature field is an embedded raster in the SVG; all
+axes, mathematical text, contours and allocation profiles remain vector.
+Both full-size and350px renders were visually checked.
 
-Minimal reproduction files
-render_insulation.py
-benchmark-parameters.json
-FORMULAS.txt
-SOURCE.txt
-Optional sampled data: insulation-boundary.csv (404 boundary samples).
-Outputs: insulation-temperature-coating.svg and .png.
-Dependencies: Python, NumPy, Matplotlib. All paths are relative.
-No source PDF, arXiv archive or unpublished research data is needed to
-reproduce the graphic.
+Suggested caption:
+Exact benchmark temperature and optimal normal insulation allocation for a
+fixed budget. The central portions of the top and bottom edges remain
+uncoated. Normal offsets are scaled for display.
 
-Rights/provenance
-This is a newly generated visualization of publicly stated mathematical
-formulas, with complete scientific attribution, made for the coauthor's
-requested homepage. It does not reproduce publisher artwork or assert
-a Creative Commons license for the source paper.
+Rights: newly generated visualization of publicly stated mathematical
+formulas with scientific attribution for the coauthor's homepage; no
+publisher artwork is copied and no nonexistent CC license is asserted.

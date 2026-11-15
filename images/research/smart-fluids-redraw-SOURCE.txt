@@ -1,50 +1,42 @@
-SMART-FLUID BENCHMARK — NEW WEB VISUAL
+SMART FLUIDS — ORIGINAL FIGURE 9 PALETTE
 
-Use smart-fluids-profile-new.svg for the website. The PNG is a high-resolution
-preview. The two panels share the same horizontal coordinates.
+Web asset: smart-fluids-profile.svg (intrinsic 1080 x 720).
+PNG fallback: smart-fluids-profile.png.
+Small-size QA export: smart-fluids-profile-350.png (350 x 233).
 
-The upper band identifies p(x)=2.5 for -1<=x<=0.5 and p(x)=1.5 for 0.5<x<=1.
-The lower panel shows the exact stationary velocity profile and actual finite
-element approximations on 4 and 32 cells. The original experiment refines
-space and time together: 4 and 32 time steps, respectively. Curves are
-final-time values. This is a stationary benchmark in
-the public pulsatile-flow article, not an observed physical flow or a new
-time-dependent numerical experiment.
+Reproduce with Python 3, NumPy, and Matplotlib:
+  python plot_profile.py
+The supplied CSVs contain the previously verified source-figure coordinates
+and exact formula samples. The plotting script changes only the presentation.
 
-Numerical profiles are extracted from PDF vector paths in the author's
-Figure 9, left panel. No values have been invented, fitted to a convergence
-rate, or produced by a new solver run. PDF display coordinates have finite
-precision: they are suitable for faithful visualization, not for new
-quantitative error estimates. Axis-calibration residuals are below 3.8e-8 in
-data coordinates; the recomputed published exact formula agrees with the
-original exact-curve path to 1.42e-7 at its vertices.
-
-The original nine approximation curves are reduced to two representative
-levels. The flux line is omitted to keep the comparison legible. Styles,
-layout and explanatory labels are new; the numerical curve values are kept.
-
-CAPTION
-A discontinuous material exponent produces an asymmetric velocity profile.
-The finite element approximations on 4 and 32 cells are compared with the
-exact stationary benchmark.
-
-CREDIT
-Joint work with Luigi C. Berselli.
-
-SOURCE
-Luigi C. Berselli and Alex Kaltenbach,
-Pulsatile Flows for Simplified Smart Fluids with Variable Exponent Power-Law:
-Analysis and Numerics.
+Source: Figure 9, left panel, Berselli--Kaltenbach smart-fluids work.
 https://doi.org/10.1142/S0218202527500023
 https://github.com/alexkaltenbach/pulsatile-smart-fluids-code
-Commit b3d4d4e3d68c2145e46490d5e47a07b1ccda16db
-pLaplaceMixed/plots/Figure9.pdf (left panel)
-Public software archive: https://doi.org/10.5281/zenodo.21179010
-Full license notice: LICENSE.txt
+Commit b3d4d4e3d68c2145e46490d5e47a07b1ccda16db.
+File pLaplaceMixed/plots/Figure9.pdf. Source code and PDF colors confirm blue
+#1f77b4 for the exact velocity / approximations, red #d62728 for the exponent,
+and purple #9467bd for the omitted prescribed-flux line.
 
-REPRODUCE
-python plot_profile.py
-This reads the four supplied CSV files and only requires NumPy/Matplotlib.
-To repeat the optional extraction from the exact archived source PDF:
-python extract_vector_data.py /path/to/Figure9.pdf
-The extractor requires PyMuPDF, NumPy and SciPy, and verifies the PDF hash.
+The numerical profiles have 4 cells / 4 time steps and 32 cells / 32 time
+steps. They are the author's actual final-time curves for a stationary exact
+benchmark, extracted from the PDF vector paths. They are rounded plotted data,
+not fresh raw solver results. See provenance.json for calibration errors and
+the complete source hash. No new convergence claims should be made.
+
+The exact curve is recomputed from the published piecewise formula and
+validated against the paper curve. It is not a fitted curve.
+
+Visual changes: two refinements rather than nine; separate red exponent axis;
+STIX serif mathematics; restrained grid; no decorative band or area fill.
+The SVG contains vector glyphs and can scale without external font files.
+Small-width review passed at 350 px with no cropped labels.
+
+Suggested caption and alternative text are in provenance.json.
+Credit: joint work with Luigi C. Berselli.
+Original source license: BSD-3-Clause; see LICENSE.txt.
+
+Minimal reproduction files: plot_profile.py, coarse_4_cells.csv,
+fine_32_cells.csv, exact_profile.csv, provenance.json, LICENSE.txt, this file.
+extract_vector_data.py and exact_pdf_path.csv support provenance verification;
+the extractor requires the separately downloaded source Figure9.pdf,
+PyMuPDF, NumPy, and SciPy. No full original paper needs to be bundled.

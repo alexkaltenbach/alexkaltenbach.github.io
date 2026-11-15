@@ -1,67 +1,35 @@
-SIGNORINI GAP COMPARISON: WEB REDRAW
+SIGNORINI: ORIGINAL PAPER COLORS, PUBLICATION-STYLE REDRAW
 
-Research source
-Sören Bartels, Thirupathi Gudi, Alex Kaltenbach:
+Research source: Sören Bartels, Thirupathi Gudi, Alex Kaltenbach,
 A priori and a posteriori error identities for the scalar Signorini problem.
-Public author manuscript: https://arxiv.org/abs/2407.10912v1
-Author-uploaded source: https://arxiv.org/src/2407.10912
-Original asset: images/aposteriori_rates.pdf
-Location in manuscript: Figure 4(right), page 23, Section 7.3.1.
-Published article: SIAM Journal on Numerical Analysis 63(5), 2155–2186 (2025).
-DOI: https://doi.org/10.1137/24M1677691
+https://arxiv.org/abs/2407.10912v1
+Figure4(right), p.23; author-uploaded images/aposteriori_rates.pdf.
+Published DOI: https://doi.org/10.1137/24M1677691
 
-What the curves show
-The squared primal-dual gap estimator against degrees of freedom for the
-scalar Signorini problem on (-1,1)^2 with mixed boundary conditions.
-Adaptive refinement: theta=1/2, 21 levels.
-Uniform refinement: theta=1, 5 levels.
-These are estimator values, not a measured exact-error norm. The exact
-solution is unknown in this experiment.
+All 21 adaptive and 5 uniform samples are unchanged from the validated
+PDF vector extraction in signorini-vector-data.json/.csv. Polylines were
+calibrated from labelled logarithmic major grid lines and checked against
+marker centers (maximum discrepancy 0.000031 PDF point). These are approximate
+vector-derived values, not original full-precision solver data. No samples
+are added, fitted, smoothed or removed.
 
-Extraction and accuracy
-All plotted samples were recovered from the original PDF vector polylines,
-not from raster pixels and not from a newly run solver. The blue polyline
-contains 21 samples; the green polyline contains 5. Every recovered vertex
-was checked against the center of its corresponding original marker.
-Maximum vertex/marker discrepancy: approximately 0.000031 PDF point.
+Exact original series colors restored:
+adaptive circles: #1f77b4 (Matplotlib tab:blue)
+uniform squares: #2ca02c (Matplotlib tab:green)
 
-The logarithmic axis transformations were calibrated using the exact PDF
-positions of the major grid lines and their text labels (x: 10^2,10^3,10^4;
-y: 10^-1,10^-2,10^-3,10^-4). Calibration residuals and transformations are
-saved in signorini-vector-data.json. The original PDF coordinate precision
-limits recovered numerical values. They are approximate vector-derived
-values, not original full-precision solver data; the many CSV digits preserve
-the reproducible extraction, not a claim of simulation precision.
-Degrees of freedom recover to within about 0.002 of their integer values.
-No data point was added, fitted, smoothed, or removed. Lines connect the
-original samples on the same logarithmic scales.
+The true quantity is the squared primal-dual gap estimator, not a measured
+exact-error norm. Grey dashed segments show reference rates N^(-1) and
+N^(-2/3), already indicated in the source figure. They are not fitted curves.
+STIX serif typography, restrained scientific legend and moderate grid replace
+the previous web-themed direct-label style. No generic title is embedded.
 
-Visual changes
-White background; reduced grid; sans-serif labels; blue circles for adaptive
-and orange open squares for uniform refinement; clear direct labels;
-shortened x-axis label and explicit y-axis label 'Squared gap estimator'.
-The original slope triangles, legends and auxiliary mathematical notation
-were omitted for legibility. No numerical efficiency badge is asserted.
+Minimal reproduction: render_signorini.py and signorini-vector-data.json.
+Keep CSV and SOURCE.txt for audit. Original figure PDF optional/internal.
+Dependencies: NumPy, Matplotlib, lxml. Relative paths only.
 
-Suggested caption
-Refinement guided by the primal-dual gap yields faster estimator decay than
-uniform refinement in this scalar Signorini example. Redrawn from Figure 4
-in joint work with Sören Bartels and Thirupathi Gudi.
+SVG intrinsic dimensions1080×720, viewBox0 0 432 288; PNG1080×720.
+The image was inspected at full size and350px wide.
 
-Suggested alt text
-Logarithmic plot of the squared primal-dual gap estimator against degrees
-of freedom. The adaptive curve in blue decreases more steeply and reaches
-a smaller value than the uniform-refinement curve in orange.
-
-Reproduction
-Run: python redraw_signorini.py
-Dependencies: PyMuPDF, NumPy, Matplotlib.
-All inputs and outputs are relative to the script directory.
-source-figure4-right.pdf is an unchanged copy of the author-uploaded figure.
-
-Rights
-The arXiv manuscript uses the arXiv non-exclusive distribution license:
-https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html
-No Creative Commons license is asserted. This requested redraw uses the
-public numerical results for the coauthor's own homepage and retains full
-scientific attribution. No new publisher-formatted artwork is reproduced.
+Rights: the source manuscript uses arXiv's non-exclusive distribution license,
+not Creative Commons. This is a new attributed visualization of the public
+numerical results for the coauthor's requested homepage.
