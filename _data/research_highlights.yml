@@ -1,97 +1,133 @@
 duality:
-  title: Adaptive refinement guided by duality
-  image: /images/research/signorini-adaptive-gap.svg
+  title: Duality connects analysis and algorithms
+  image: /images/research/duality-overview.svg
   width: 1080
   height: 720
-  alt: "Log-log plot of the squared primal-dual gap estimator against degrees of freedom. Adaptive refinement (blue circles) decreases faster than uniform refinement (green squares), with reference slopes of minus one and minus two thirds."
-  caption: "In this scalar Signorini example, adaptive refinement reduces the squared primal–dual gap estimator faster than uniform refinement for a comparable number of degrees of freedom."
-  source_label: "Signorini example · Figure 4"
-  source_url: https://arxiv.org/abs/2407.10912
+  alt: Duality connects a priori error analysis in blue, a posteriori error analysis in orange, and iterative solvers in purple.
+    Arrows show the mutual links between the three areas.
+  caption: Convex duality provides a common framework for a priori estimates, a posteriori error control, and iterative solution
+    methods.
+  source_label: Convex duality · Review
+  source_url: https://doi.org/10.1016/bs.aams.2024.04.001
   papers:
-    - title: Error identities for the scalar Signorini problem
-      authors: S. Bartels, T. Gudi, A. Kaltenbach
-      venue: SIAM J. Numer. Anal.
-      year: 2025
-      url: https://doi.org/10.1137/24M1677691
-    - title: Exact error control via convex duality
-      authors: S. Bartels, A. Kaltenbach
-      venue: Adv. Appl. Mech. · Review
-      year: 2024
-      url: https://doi.org/10.1016/bs.aams.2024.04.001
-    - title: A prox-based semismooth Newton method
-      authors: S. Bartels, A. Kaltenbach
-      venue: Preprint
-      year: 2026
-      url: https://arxiv.org/abs/2606.25948
+  - title: Error identities for the scalar Signorini problem
+    authors: S. Bartels, T. Gudi, A. Kaltenbach
+    venue: SIAM J. Numer. Anal.
+    year: 2025
+    url: https://doi.org/10.1137/24M1677691
+  - title: Exact error control via convex duality
+    authors: S. Bartels, A. Kaltenbach
+    venue: Adv. Appl. Mech. · Review
+    year: 2024
+    url: https://doi.org/10.1016/bs.aams.2024.04.001
+  - title: A prox-based semismooth Newton method
+    authors: S. Bartels, A. Kaltenbach
+    venue: Preprint
+    year: 2026
+    url: https://arxiv.org/abs/2606.25948
+  extra_links:
+  - label: Convergence benchmark
+    url: /images/research/signorini-adaptive-gap.svg
+  detail:
+    label: Explore an adaptive Signorini mesh
+    image: /images/research/signorini-adaptive-mesh.svg
+    width: 1080
+    height: 972
+    alt: Authentic triangular mesh on the square from minus one to one in both directions after 15 adaptive steps. Refinement
+      concentrates along the bottom contact boundary and near the transition at the middle of the right boundary.
+    caption: After 15 adaptive steps, primal–dual gap indicators concentrate refinement along the contact boundary and near
+      the boundary-condition transition at (1, 0).
+    source_label: Signorini problem · Figure 5
+    source_url: https://arxiv.org/abs/2407.10912
 fluids:
-  title: Resolving a variable-exponent flow profile
-  image: /images/research/smart-fluids-profile.svg
+  title: Pulsatile flow through a pipe
+  image: /images/research/smart-fluid-pipe-scene.svg
   width: 1080
-  height: 720
-  alt: "A red step plot shows the material exponent changing from 2.5 to 1.5 at x=0.5. Below it, the exact blue velocity profile is compared with lighter blue numerical profiles on 4 and 32 spatial cells, using coupled space-time refinement."
-  caption: "A jump in the material exponent produces an asymmetric velocity profile. Two levels of space–time refinement are compared with the exact stationary benchmark from the pulsatile-flow study."
-  source_label: "Pulsatile-flow study · Figure 9, left"
-  source_url: https://github.com/alexkaltenbach/pulsatile-smart-fluids-code/blob/b3d4d4e3d68c2145e46490d5e47a07b1ccda16db/pLaplaceMixed/plots/Figure9.pdf
+  height: 360
+  alt: Schematic of fully developed pipe flow. Blue arrows indicate axial velocity, purple sections indicate pressure variation
+    along the pipe, and Sigma denotes a cross-section.
+  caption: 'Fully developed pulsatile flow: axial velocity in blue, pressure variation in purple. The model allows the material
+    exponent to vary across the pipe.'
+  source_label: Pulsatile-flow study · Figure 1
+  source_url: https://arxiv.org/abs/2507.22449
   papers:
-    - title: Pulsatile flows for simplified smart fluids
-      authors: L. C. Berselli, A. Kaltenbach
-      venue: Math. Models Methods Appl. Sci.
-      year: 2026
-      url: https://doi.org/10.1142/S0218202527500023
-      code_url: https://github.com/alexkaltenbach/pulsatile-smart-fluids-code
-    - title: Fully discrete approximation of unsteady variable-exponent Navier–Stokes equations
-      authors: L. C. Berselli, A. Kaltenbach
-      venue: Numer. Math.
-      year: 2025
-      url: https://doi.org/10.1007/s00211-025-01450-1
+  - title: Pulsatile flows for simplified smart fluids
+    authors: L. C. Berselli, A. Kaltenbach
+    venue: Math. Models Methods Appl. Sci.
+    year: 2026
+    url: https://doi.org/10.1142/S0218202527500023
+    code_url: https://github.com/alexkaltenbach/pulsatile-smart-fluids-code
+  - title: Fully discrete approximation of unsteady variable-exponent Navier–Stokes equations
+    authors: L. C. Berselli, A. Kaltenbach
+    venue: Numer. Math.
+    year: 2025
+    url: https://doi.org/10.1007/s00211-025-01450-1
+  extra_links:
+  - label: Velocity benchmark
+    url: /images/research/smart-fluids-profile.svg
 insulation:
-  title: Temperature and optimal insulation
-  image: /images/research/insulation-temperature-coating.svg
+  title: Insulating a re-entry capsule
+  image: /images/research/insulation-capsule.svg
   width: 1080
   height: 720
-  alt: "Two panels show the exact temperature in a square using Inferno colors, and the optimal insulation allocation using Magma colors and normal arrows. Central parts of the top and bottom edges remain uncoated. The displayed thickness is schematic."
-  caption: "Exact temperature and optimal insulation in a manufactured benchmark. The boundary plot shows the allocation of a fixed amount of material; central parts of the top and bottom edges remain uncoated. The displayed thickness is schematic."
-  source_label: "Insulation benchmark · Section 7.1"
+  alt: Two computed insulation allocations on the same idealized re-entry capsule. With normalized budgets of 0.1 and 2.5,
+    9 percent and 71 percent of the hull are insulated, respectively. Gray areas remain uninsulated; the original purple-to-yellow
+    color scale indicates the allocation in the transversal direction.
+  caption: Qualitative finite element example on an idealized re-entry capsule. Increasing the insulation budget expands coverage
+    from 9% to 71% of the hull.
+  source_label: Re-entry example · Section 7.2
   source_url: https://arxiv.org/abs/2606.14991
   papers:
-    - title: Convection effects and optimal insulation
-      authors: A. Kaltenbach, H. Antil, K. L. A. Kirk
-      venue: ESAIM Control Optim. Calc. Var.
-      year: 2026
-      url: https://doi.org/10.1051/cocv/2026064
-    - title: Finite element approximation with convective heat transfer
-      authors: H. Antil, A. Kaltenbach, K. L. A. Kirk
-      venue: Preprint
-      year: 2026
-      url: https://arxiv.org/abs/2606.14991
+  - title: Convection effects and optimal insulation
+    authors: A. Kaltenbach, H. Antil, K. L. A. Kirk
+    venue: ESAIM Control Optim. Calc. Var.
+    year: 2026
+    url: https://doi.org/10.1051/cocv/2026064
+  - title: Finite element approximation with convective heat transfer
+    authors: H. Antil, A. Kaltenbach, K. L. A. Kirk
+    venue: Preprint
+    year: 2026
+    url: https://arxiv.org/abs/2606.14991
+  extra_links:
+  - label: Temperature benchmark
+    url: /images/research/insulation-temperature-coating.svg
 neural:
-  title: A family of PDE solutions
-  image: /images/research/neural-parametric-map.svg
-  width: 1080
-  height: 720
-  alt: "A Viridis heatmap with level contours shows the exact solution family, with forcing parameter mu horizontally from 0 to 6 and position x vertically from minus one to one. The number of oscillations increases with the parameter."
-  caption: "Deep Ritz networks approximate a solution jointly in space and parameter. This graphic shows the exact reference family for the variable-forcing benchmark in our study."
-  source_label: "Deep Ritz study · Section 8.1"
-  source_url: https://doi.org/10.1186/s13662-025-04043-2
+  title: Families of PDE solutions
+  image: /images/research/parametric-families.svg
+  width: 1200
+  height: 425
+  alt: 'Three surface plots show exact scalar solution families as functions of physical position x and parameter mu: varying
+    forcing, a moving interval with both endpoints changing, and a constitutive exponent varying from 1.2 to 6. Orange curves
+    select mu equals one half.'
+  caption: Forcing, geometry, and the constitutive exponent each generate a different solution family. These surfaces show
+    exact scalar model examples; the orange curves select μ = 0.5.
+  source_label: Analytic model families · Formulas
+  source_url: /images/research/parametric-families-formulas.txt
   papers:
-    - title: The Deep Ritz method for parametric p-Dirichlet problems
-      authors: A. Kaltenbach, M. Zeinhofer
-      venue: Adv. Contin. Discrete Models
-      year: 2026
-      url: https://doi.org/10.1186/s13662-025-04043-2
+  - title: The Deep Ritz method for parametric p-Dirichlet problems
+    authors: A. Kaltenbach, M. Zeinhofer
+    venue: Adv. Contin. Discrete Models
+    year: 2026
+    url: https://doi.org/10.1186/s13662-025-04043-2
+  wide: true
+  mobile_image: /images/research/parametric-families-mobile.svg
+  mobile_width: 450
+  mobile_height: 1100
 qhgem:
-  title: "From one peak to two: density generation"
+  title: 'From one peak to two: density generation'
   image: /images/research/qhgem-density-3d.png
   width: 1080
   height: 720
-  alt: "Two three-dimensional surface plots in the original Parula colors show the initial Gaussian density at t=0 and the computed two-peak density at t=T=0.3, using identical spatial, height, and linear color scales."
-  caption: "An identified initial phase steers a Gaussian density towards a bimodal target through quantum-hydrodynamic dynamics. The surfaces show the initial and computed final states of a two-dimensional example on the same scale."
-  source_label: "QH-GEM · Figure 5 reference data"
+  alt: Two three-dimensional surface plots in the original Parula colors show the initial Gaussian density at t=0 and the
+    computed two-peak density at t=T=0.3, using identical spatial, height, and linear color scales.
+  caption: An identified initial phase steers a Gaussian density towards a bimodal target through quantum-hydrodynamic dynamics.
+    The surfaces show the initial and computed final states of a two-dimensional example on the same scale.
+  source_label: QH-GEM · Figure 5 reference data
   source_url: https://github.com/alexkaltenbach/qh-gem-matlab/tree/117aa2ee2ea396aec22eaca6df6ae14d9b456376/reference_data
   papers:
-    - title: "QH-GEM: Quantum-Hydrodynamic Generative Modeling"
-      authors: H. Antil, A. Kaltenbach, S. Shah
-      venue: Preprint
-      year: 2026
-      url: https://arxiv.org/abs/2608.27216
-      code_url: https://github.com/alexkaltenbach/qh-gem-matlab
+  - title: 'QH-GEM: Quantum-Hydrodynamic Generative Modeling'
+    authors: H. Antil, A. Kaltenbach, S. Shah
+    venue: Preprint
+    year: 2026
+    url: https://arxiv.org/abs/2608.27216
+    code_url: https://github.com/alexkaltenbach/qh-gem-matlab

@@ -1,18 +1,36 @@
 {% assign example = site.data.research_highlights[include.topic] %}
-<figure class="research-example" aria-labelledby="research-example-{{ include.topic }}">
+<figure class="research-example{% if example.wide %} research-example--wide{% endif %}" aria-labelledby="research-example-{{ include.topic }}">
   <div class="research-example__visual">
     <a class="research-example__image-link" href="{{ example.image | relative_url }}" aria-label="View larger figure: {{ example.title | escape }}">
-      <img src="{{ example.image | relative_url }}" width="{{ example.width }}" height="{{ example.height }}" loading="lazy" decoding="async" alt="{{ example.alt | escape }}">
+      <picture>
+        {% if example.mobile_image %}<source media="(max-width: 700px)" srcset="{{ example.mobile_image | relative_url }}" width="{{ example.mobile_width }}" height="{{ example.mobile_height }}">{% endif %}
+        <img src="{{ example.image | relative_url }}" width="{{ example.width }}" height="{{ example.height }}" loading="lazy" decoding="async" alt="{{ example.alt | escape }}">
+      </picture>
     </a>
     <div class="research-example__source">
-      <a href="{{ example.source_url }}">{{ example.source_label }}</a>
+      <a href="{% if example.source_url contains '://' %}{{ example.source_url }}{% else %}{{ example.source_url | relative_url }}{% endif %}">{{ example.source_label }}</a>
       <span aria-hidden="true"> · </span>
       <a href="{{ example.image | relative_url }}">Enlarge</a>
+      {% for link in example.extra_links %}<span aria-hidden="true"> · </span><a href="{{ link.url | relative_url }}">{{ link.label }}</a>{% endfor %}
     </div>
+    {% if example.detail %}
+    <details class="research-example__detail">
+      <summary>{{ example.detail.label }}</summary>
+      <div class="research-example__detail-body">
+        <a class="research-example__image-link" href="{{ example.detail.image | relative_url }}" aria-label="View larger adaptive mesh">
+          <img src="{{ example.detail.image | relative_url }}" width="{{ example.detail.width }}" height="{{ example.detail.height }}" loading="lazy" decoding="async" alt="{{ example.detail.alt | escape }}">
+        </a>
+        <p>{{ example.detail.caption }}</p>
+        <a href="{{ example.detail.source_url }}">{{ example.detail.source_label }}</a>
+      </div>
+    </details>
+    {% endif %}
   </div>
   <figcaption>
-    <h3 id="research-example-{{ include.topic }}">{{ example.title }}</h3>
-    <p class="research-example__caption">{{ example.caption }}</p>
+    <div class="research-example__explanation">
+      <h3 id="research-example-{{ include.topic }}">{{ example.title }}</h3>
+      <p class="research-example__caption">{{ example.caption }}</p>
+    </div>
     {% include research-publications.html topic=include.topic %}
   </figcaption>
 </figure>

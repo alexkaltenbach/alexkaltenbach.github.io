@@ -10,6 +10,8 @@ redirect_from:
 
 I am a postdoctoral researcher at the Technical University of Berlin in the research group *Differential Equations*, led by Prof. Etienne Emmrich.
 
+From 2027, I will serve as a principal investigator of **DOC-TWIN (MATH+)** and scientific co-lead of **LenhTVHM (DFG–NSFC)**, two [funded research projects](/third-party-funding/) on duality-based error control for digital twins and learning-enhanced iterative methods.
+
 From March to September 2026, I was a Distinguished Fellow at George Mason University (Fairfax, VA, USA), hosted by Prof. Harbir Antil.
 
 Previously, I held a postdoctoral position at the University of Freiburg, where I also completed my PhD under the supervision of Prof. Michael Růžička. From July 2023 to March 2024, I was a Walter Benjamin Fellow of the German Research Foundation (DFG) at the University of Pisa, working with Prof. Luigi C. Berselli on numerical methods for smart fluids.
@@ -49,5 +51,3 @@ Further directions complement this programme:
 - **Quantum-hydrodynamic generative modelling.** I develop PDE-based generative methods using Schrödinger dynamics and their Madelung formulation. PDE-constrained optimisation determines an initial phase so that the resulting deterministic dynamics transport a reference distribution towards a prescribed target. Current research addresses scalable phase identification, structure-preserving discretisations, and error control.
 
   <div class="research-topic-materials">{% capture research_material %}{% include research-example.html topic="qhgem" %}{% endcapture %}{{ research_material | strip_newlines }}</div>
-
-From 2027, I will serve as scientific co-lead of two [funded research projects](/third-party-funding/) on learning-enhanced iterative methods (DFG–NSFC) and duality-based error control for digital twins (MATH+).

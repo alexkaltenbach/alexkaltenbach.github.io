@@ -1,0 +1,38 @@
+EXACT SCALAR PARAMETRIC SOLUTION FAMILIES
+
+Analytic illustrations from Alex Kaltenbach's lecture materials.
+These are explicit scalar Dirichlet model solutions, not trained neural-network
+outputs, p-Stokes simulations, or numerical results from an unpublished paper.
+The blue surfaces show u(x, mu), with 0 <= mu <= 1. Orange selects mu = 0.5.
+The plotted horizontal coordinate is physical x in all three panels.
+
+1. FORCING
+Domain: -1 < x < 1; zero boundary values.
+  a(mu) = -0.62 + 1.24 mu + 0.08 sin(2 pi mu)
+  u(x, mu) = [(1-x^2)^2 / (1-a(mu)^2)^2]
+             exp(-12 (x-a(mu))^2) cos(5 pi (x-a(mu)))
+This solves -u_xx = f(x, mu), with f obtained by differentiating the
+explicit expression. The parameter changes the forcing through a moving
+oscillatory packet. The boundary values are identically zero.
+
+2. DOMAIN
+  c(mu) = 0.5 sin(2 pi mu)
+  r(mu) = 0.65 + 0.2 cos(2 pi mu + pi/3)
+Domain: c(mu)-r(mu) < x < c(mu)+r(mu); zero boundary values.
+  u(x, mu) = [r(mu)^2 - (x-c(mu))^2] / 2
+This solves -u_xx = 1. Both endpoints of the physical interval move.
+The actual curved parameter-domain footprint is drawn, not a fixed reference
+interval. The radius remains between 0.45 and 0.85.
+
+3. CONSTITUTIVE EXPONENT
+Domain: -1 < x < 1; zero boundary values.
+  p(mu) = 1 + 0.2 * 25^mu
+  q(mu) = p(mu)/(p(mu)-1)
+  u(x, mu) = [1 - |x|^q(mu)]/q(mu)
+This solves -d/dx (|u_x|^(p(mu)-2) u_x) = 1.
+The exponent varies from 1.2 to 6; p(0.5) = 2 is the linear case.
+
+Each surface retains its actual height scale, with a separately labeled u axis.
+Common orthographic camera and lecture colors: blue #006EAD, orange #EB811B.
+Color variation and shading aid depth perception; no color encodes a learned
+error or estimator. Wide and stacked mobile layouts contain identical data.
