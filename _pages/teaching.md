@@ -1,22 +1,21 @@
 ---
 layout: archive
 title: "Teaching"
+description: "Courses, lecture notes and supervised theses at TU Berlin and the University of Freiburg."
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
-## Lectures and seminars
-
-### Lecture notes
+## Lecture notes
 
 - [Ordinary Differential Equations](/files/skript_ode.pdf)
 - [Bochner Spaces](/files/skript_bochner.pdf)
 - [Differential Equations II/B](/files/skript_dgl2b.pdf)
 - [Differential Equations III](/files/skript_dgl3.pdf)
 
-## Supervisions
+## Courses taught
 
 <ul class="teaching-list">
 {% assign teachings = site.teaching | sort: "date" | reverse %}
@@ -24,31 +23,31 @@ author_profile: true
   {% if t.role == 'supervision' %}
     <li class="teaching-item">
       <div class="teaching-title">
-        <em>{{ t.title }}</em>
+        <em>{{ t.display_title | default: t.title }}</em>
       </div>
       <div class="teaching-meta">
         {% if t.venue %}{{ t.venue }}{% endif %}
         {% if t.location %}{% if t.venue %} · {% endif %}{{ t.location }}{% endif %}
-        {% if t.date %} · {{ t.date | date: "%Y" }}{% endif %}
+        {% if t.date %} · {% include teaching-term.html course=t %}{% endif %}
       </div>
     </li>
   {% endif %}
 {% endfor %}
 </ul>
 
-## Assistantships
+## Teaching assistance
 
 <ul class="teaching-list">
 {% for t in teachings %}
   {% if t.role == 'assistance' %}
     <li class="teaching-item">
       <div class="teaching-title">
-        <em>{{ t.title }}</em>
+        <em>{{ t.display_title | default: t.title }}</em>
       </div>
       <div class="teaching-meta">
         {% if t.venue %}{{ t.venue }}{% endif %}
         {% if t.location %}{% if t.venue %} · {% endif %}{{ t.location }}{% endif %}
-        {% if t.date %} · {{ t.date | date: "%Y" }}{% endif %}
+        {% if t.date %} · {% include teaching-term.html course=t %}{% endif %}
       </div>
     </li>
   {% endif %}

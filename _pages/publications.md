@@ -1,170 +1,68 @@
 ---
 layout: archive
 title: "Publications"
+description: "Publications, preprints, monographs and theses by Alex Kaltenbach, with DOI, arXiv and research code links."
 permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a></u>.
-{% endif %}
+[Publication list (PDF)]({{ '/files/PubList.pdf' | relative_url }}) · [Google Scholar]({{ site.author.googlescholar }}) · [ORCID]({{ site.author.orcid }})
 
-{% include base_path %}
+<nav class="section-nav" aria-label="Publication sections">
+  <a href="#preprints">Preprints</a>
+  <a href="#accepted--forthcoming">Accepted</a>
+  <a href="#peer-reviewed-publications">Journal articles</a>
+  <a href="#books">Books</a>
+  <a href="#theses">Theses</a>
+</nav>
 
-**Publication list (PDF):** [Link to PDF](/files/PubList.pdf)
-
----
+{% assign pubs = site.publications | sort: 'sort_key' | reverse %}
 
 ## Preprints
 
 <ul class="pub-list">
-{% assign pubs = site.publications | sort: "date" | reverse %}
-{% for pub in pubs %}
-  {% if pub.status == 'unpublished' %}
-    <li class="pub-item">
-      <span class="pub-title">{{ pub.title }}
-      </span>
-      <div class="pub-meta">
-        {% if pub.authors %}{{ pub.authors }}. {% endif %}
-        {% if pub.venue %}<em>{{ pub.venue }}</em>{% endif %}
-        {% if pub.date %} · {{ pub.date | date: "%B %Y" }}{% endif %}
-        {% if pub.paperurl %}
-          · <a class="pub-link" href="{{ pub.paperurl }}">arXiv</a>
-        {% endif %}
-      </div>
-    </li>
-  {% endif %}
-{% endfor %}
+{% for pub in pubs %}{% if pub.status == 'unpublished' %}{% include publication-item.html pub=pub %}{% endif %}{% endfor %}
 </ul>
 
 ## Accepted / forthcoming
 
 <ul class="pub-list">
-{% for pub in pubs %}
-  {% if pub.status == 'accepted' %}
-    <li class="pub-item">
-      <div class="pub-citation">
-      {{ pub.citation }}
-        {% if pub.paperurl %}
-        · <a class="pub-link" href="{{ pub.paperurl }}">{{ pub.link_label | default: "Link" }}</a>
-        {% endif %}
-      </div>
-    </li>
-  {% endif %}
-{% endfor %}
+{% for pub in pubs %}{% if pub.status == 'accepted' %}{% include publication-item.html pub=pub %}{% endif %}{% endfor %}
 </ul>
 
 ## Peer-reviewed publications
 
+{% assign published = pubs | where: 'status', 'published' | group_by: 'publication_year' %}
+{% for year in published %}
+### {{ year.name }}
+
 <ul class="pub-list">
-{% for pub in pubs %}
-  {% if pub.status == 'published' %}
-    <li class="pub-item">
-      <div class="pub-citation">
-      {{ pub.citation }}
-        {% if pub.paperurl %}
-        · <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
-        {% endif %}
-      </div>
-    </li>
-  {% endif %}
+{% for pub in year.items %}{% include publication-item.html pub=pub %}{% endfor %}
+</ul>
 {% endfor %}
+
+## Books
+
+<ul class="pub-list">
+{% for pub in pubs %}{% if pub.status == 'monograph_book' %}{% include publication-item.html pub=pub %}{% endif %}{% endfor %}
 </ul>
 
-## Monographs
-
-### Book contributions
+### Book chapters and proceedings
 
 <ul class="pub-list">
-{% for pub in pubs %}
-  {% if pub.status == 'monograph_book_contribution' %}
-    <li class="pub-item">
-      {% if pub.citation %}
-        <div class="pub-citation">{{ pub.citation }}</div>
-      {% else %}
-        <div class="pub-citation">
-          {% if pub.authors %}{{ pub.authors }}. {% endif %}
-          <span class="pub-title"><a href="{{ pub.url | relative_url }}">{{ pub.title }}</a></span>
-          {% if pub.venue %}. <em>{{ pub.venue }}</em>{% endif %}
-          {% if pub.date %} ({{ pub.date | date: "%Y" }}){% endif %}
-        </div>
-      {% endif %}
-      <div class="pub-links">
-        {% if pub.paperurl %}
-          <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
-        {% endif %}
-      </div>
-    </li>
-  {% endif %}
-{% endfor %}
-</ul>
-
-### Book publications
-
-<ul class="pub-list">
-{% for pub in pubs %}
-  {% if pub.status == 'monograph_book' %}
-    <li class="pub-item">
-      {% if pub.citation %}
-        <div class="pub-citation">{{ pub.citation }}</div>
-      {% else %}
-        <div class="pub-citation">
-          {% if pub.authors %}{{ pub.authors }}. {% endif %}
-          <span class="pub-title"><a href="{{ pub.url | relative_url }}">{{ pub.title }}</a></span>
-          {% if pub.venue %}. <em>{{ pub.venue }}</em>{% endif %}
-          {% if pub.date %} ({{ pub.date | date: "%Y" }}){% endif %}
-        </div>
-      {% endif %}
-      <div class="pub-links">
-        {% if pub.paperurl %}
-          <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
-        {% endif %}
-      </div>
-    </li>
-  {% endif %}
-{% endfor %}
+{% for pub in pubs %}{% if pub.status == 'monograph_book_contribution' %}{% include publication-item.html pub=pub %}{% endif %}{% endfor %}
 </ul>
 
 ## Theses
 
 <ul class="pub-list">
-{% for pub in pubs %}
-  {% if pub.status == 'monograph_thesis' %}
-    <li class="pub-item">
-      {% if pub.citation %}
-        <div class="pub-citation">{{ pub.citation }}</div>
-      {% else %}
-        <div class="pub-citation">
-          {% if pub.authors %}{{ pub.authors }}. {% endif %}
-          <span class="pub-title"><a href="{{ pub.url | relative_url }}">{{ pub.title }}</a></span>
-          {% if pub.venue %}. <em>{{ pub.venue }}</em>{% endif %}
-          {% if pub.date %} ({{ pub.date | date: "%Y" }}){% endif %}
-        </div>
-      {% endif %}
-      <div class="pub-links">
-        {% if pub.paperurl %}
-          <a class="pub-link" href="{{ pub.paperurl }}">DOI</a>
-        {% endif %}
-      </div>
-    </li>
-  {% endif %}
-{% endfor %}
+{% for pub in pubs %}{% if pub.status == 'monograph_thesis' %}{% include publication-item.html pub=pub %}{% endif %}{% endfor %}
   <li class="pub-item">
-    <div class="pub-citation">
-      Kaltenbach, A. Verallgemeinerte nichtlineare Evolutionsgleichungen.
-      Master's thesis, University of Freiburg (2019).
-    </div>
-    <div class="pub-links">
-      <a class="pub-link" href="{{ '/files/Kaltenbach_Masterarbeit_2019.pdf' | relative_url }}">PDF · korrigierte Version</a>
-    </div>
+    <div class="pub-citation">Kaltenbach, A. <i>Verallgemeinerte nichtlineare Evolutionsgleichungen.</i> Master's thesis, University of Freiburg (2019).</div>
+    <a class="pub-link" href="{{ '/files/Kaltenbach_Masterarbeit_2019.pdf' | relative_url }}">PDF · corrected version</a>
   </li>
   <li class="pub-item">
-    <div class="pub-citation">
-      Kaltenbach, A. Nichtlineare Evolutionsgleichungen.
-      Bachelor's thesis, University of Freiburg (2017).
-    </div>
-    <div class="pub-links">
-      <a class="pub-link" href="{{ '/files/Kaltenbach_Bachelorarbeit_2017.pdf' | relative_url }}">PDF · korrigierte Version</a>
-    </div>
+    <div class="pub-citation">Kaltenbach, A. <i>Nichtlineare Evolutionsgleichungen.</i> Bachelor's thesis, University of Freiburg (2017).</div>
+    <a class="pub-link" href="{{ '/files/Kaltenbach_Bachelorarbeit_2017.pdf' | relative_url }}">PDF · corrected version</a>
   </li>
 </ul>

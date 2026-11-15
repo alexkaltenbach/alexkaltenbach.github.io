@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div id="main" role="main">
+  {% include sidebar.html %}
+  <article class="page">
+    <div class="page__inner-wrap">
+      <header>
+        <h1 class="page__title">{{ page.title | escape }}</h1>
+        <p>{{ page.authors }}</p>
+        <p>{{ page.publication_details }}</p>
+        {% if page.status == 'unpublished' %}<p class="publication-status">Preprint</p>{% elsif page.status == 'accepted' %}<p class="publication-status">Accepted / forthcoming</p>{% endif %}
+        {% include publication-links.html pub=page %}
+      </header>
+      <section class="page__content">
+        {{ content }}
+        <h2>Citation</h2>
+        <p>{{ page.citation }}</p>
+        <p><a href="{{ '/publications/' | relative_url }}">All publications</a></p>
+      </section>
+    </div>
+  </article>
+</div>

@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Talks"
+description: "Upcoming and past talks by Alex Kaltenbach, including lecture series slides."
 permalink: /talks/
 author_profile: true
 ---
@@ -30,6 +31,11 @@ author_profile: true
   {% endif %}
 {% endfor %}
 </ul>
+
+## Lecture series materials
+
+**Duality-based numerical methods — Freiburg, 2024.**
+[Session 1 (PDF)]({{ '/talks/slides/Freiburg_Session1.pdf' | relative_url }}) · [Session 2 (PDF)]({{ '/talks/slides/Freiburg_Session2.pdf' | relative_url }}) · [Session 3 (PDF)]({{ '/talks/slides/Freiburg_Session3.pdf' | relative_url }}) · [Session 4 (PDF)]({{ '/talks/slides/Freiburg_Session4.pdf' | relative_url }})
 
 ## Past talks
 

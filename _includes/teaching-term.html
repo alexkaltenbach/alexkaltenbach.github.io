@@ -1,0 +1,1 @@
+{% assign course = include.course %}{% if course.term %}{{ course.term }}{% else %}{{ course.date | date: '%Y' }}{% endif %}

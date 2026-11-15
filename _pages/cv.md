@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Curriculum Vitae"
+description: "Academic appointments, education, awards and service of Alex Kaltenbach."
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,10 +10,13 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV (PDF)]({{ "/files/Alex_Kaltenbach_CV.pdf" | relative_url }}) · Updated 15 November 2026
+
 ## Work Experience
 
 * **Postdoctoral Research Associate**, 04/2023 – Present  
   Technical University of Berlin, Germany  
+  Research on duality-based error control, nonlinear PDEs and numerical methods for non-Newtonian fluids.  
   Teaching and supervision of exercise sessions, seminars, theses, and lectures.  
   Supervisor: Prof. Dr. Etienne Emmrich  
 
@@ -29,6 +33,7 @@ redirect_from:
 
 * **Postdoctoral Research Associate**, 10/2021 – 03/2023  
   University of Freiburg, Germany  
+  Research on nonlinear evolution equations and finite element analysis for non-Newtonian fluids.  
   Teaching and supervision of exercise sessions, seminars, theses, and lectures.  
   Supervisor: Prof. Dr. Michael Růžička  
 
@@ -75,7 +80,7 @@ redirect_from:
 
 ## Awards
 
-* *Ferdinand-von-Lindemann Prize*, 10/2020  
+* *Ferdinand-von-Lindemann Prize*, 10/2022  
   Award for the PhD thesis “Theory of pseudo-monotone operators for unsteady problems in variable exponent spaces.”  
   Prize money: €1,000  
 

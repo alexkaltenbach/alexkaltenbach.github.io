@@ -1,6 +1,7 @@
 ---
 layout: archive
-title: "Third-Party Funding"
+title: "Projects & funding"
+description: "Funded research projects and fellowships in numerical analysis and scientific computing."
 permalink: /third-party-funding/
 author_profile: true
 ---
@@ -27,11 +28,11 @@ author_profile: true
 
 <div class="funding-entry funding-entry--with-logo funding-entry--project">
   <div class="funding-entry__body">
-    <h3>DOC-TWIN: Duality-Based Error Control for Optimal Control Problems in Digital-Twin-Based Structural Health Monitoring</h3>
+    <h3 id="doc-twin">DOC-TWIN: Duality-Based Error Control for Optimal Control Problems in Digital-Twin-Based Structural Health Monitoring</h3>
     <ul>
       <li><strong>Funding line:</strong> MATH+ Application Area Technology, project AA-Tech-4</li>
       <li><strong>Project duration:</strong> 2027-2028</li>
-      <li><strong>Funding awarded:</strong> one full-time research position (TV-L E13, 100%) for two years</li>
+      <li><strong>Funding awarded:</strong> one full-time research position for two years</li>
       <li><strong>My role:</strong> Scientific co-lead with Michael Hintermüller and Harbir Antil (associated).</li>
       <li><strong>Project page:</strong> <a href="https://mathplus.de/research-2/application-areas/aa2-nano-quantum-technologies/application-areas-aa-tech-4/">MATH+ AA-Tech-4</a></li>
     </ul>
